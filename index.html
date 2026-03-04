@@ -5,7 +5,24 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <canvas id="canvas"></canvas>
-    </body>
+        <div id="drawing">
+            <div class="container">
+                <canvas id="drawing-canvas"></canvas>
+            </div>
+            <div class="container">
+                Colour:
+                <input id="colour" name="colour" type="color">
+            </div>
+            <div class="container">
+                <button onclick="submit()">Submit</button>
+            </div>
+        </div>
+        <div id="results">
+            <div class="container">
+                <img id="real-card">
+                <img id="drawn-card">
+            </div>
+        </div>
+        </body>
     <script src="index.js"></script>
 </html>

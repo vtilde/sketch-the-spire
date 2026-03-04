@@ -2,4 +2,29 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
+}
+
+/* #drawing-canvas {
+    border: 2px solid red;
+} */
+
+.container {
+    margin: 5px auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+#colour-picker {
+    width: 200px;
+}
+
+#real-card {
+    border: 2px solid green;
+}
+
+#drawn-card {
+    border: 2px solid yellow;
 }
