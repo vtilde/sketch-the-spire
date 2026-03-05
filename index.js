@@ -1,5 +1,11 @@
-const card = "Thunderclap";
-const cardURL = "art/Red-Thunderclap-Art.png";
+
+// set card
+var params = new URLSearchParams(window.location.search);
+var card = params.get("card");
+if (card == null) {
+    card = "Red-Strike";
+};
+var cardURL = "data/art/" + card.replaceAll(" ", "") + ".png"
 document.getElementById("real-card").src = cardURL;
 
 document.getElementById("results").style.display = "none";
