@@ -45,6 +45,9 @@ canvas.addEventListener("mouseup", (event) => {
     isDrawing = false;
 });
 
+// colour picker
+var picker = document.getElementById("picker");
+picker._slots.color_space.style.display = "none";
 
 
 // scoring

@@ -1,0 +1,35 @@
+:host {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	gap: 1em;
+}
+
+#space_picker {
+	margin-inline-start: -0.7em; /* align with the channel names */
+	font-size: 150%;
+	transition: border-color 0.2s;
+
+	&:not(:hover) {
+		border-color: transparent;
+	}
+}
+
+[part="color-space"],
+slot[name="color-space"]::slotted(*) {
+	grid-column: 1 / -1;
+	justify-self: start;
+}
+
+#sliders {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	gap: 0.3em;
+	min-inline-size: 10em;
+}
+
+[part="swatch"],
+slot[name="swatch"]::slotted(*) {
+	width: auto;
+	margin: 0;
+}

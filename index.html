@@ -3,6 +3,7 @@
     <head>
         <title>draw the sts card</title>
         <link rel="stylesheet" href="index.css">
+        <script src="https://elements.colorjs.io/src/color-picker/color-picker.js" type="module"></script>
     </head>
     <body>
         <div id="drawing">
@@ -11,7 +12,9 @@
             </div>
             <div class="container">
                 Colour:
-                <input id="colour" name="colour" type="color">
+                <color-picker id="picker" space="hsv" color="color(--hsv 352 75% 38%)" color-space="">
+                    <div slot="color-space"></div>
+                </color-picker>
             </div>
             <div class="container">
                 <button onclick="submit()">Submit</button>

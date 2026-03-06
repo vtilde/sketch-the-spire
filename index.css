@@ -17,8 +17,12 @@ body {
     border: 2px solid red;
 }
 
-#colour-picker {
-    width: 200px;
+color-picker {
+    display: none;
+}
+
+channel-slider {
+    width: 400px;
 }
 
 #real-card {
