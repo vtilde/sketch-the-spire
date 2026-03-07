@@ -11,12 +11,33 @@ body {
     display: flex;
     justify-content: center;
     border: 2px solid red;
-    padding: 15px;
+    padding: 10px;
+}
+
+.inner-container {
+    padding: 5px;
+    /* border: 2px solid blue; */
+}
+
+#colour-container {
+    min-width: 400px;
 }
 
 #picker {
     width: 100%;
     --details-style: compact;
+}
+
+#thickness-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#thickness {
+    writing-mode: vertical-lr;
+    direction: rtl;
+    margin: auto;
 }
 
 #real-card {

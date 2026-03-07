@@ -11,9 +11,18 @@
                 <canvas id="drawing-canvas"></canvas>
             </div>
             <div class="container">
-                <color-picker id="picker" space="hsv" color="color(--hsv 352 75% 38%)" color-space="">
-                    <div slot="color-space"></div>
-                </color-picker>
+                <div class="inner-container" id="colour-container">
+                    <color-picker id="picker" space="hsl" color="color(--hsv 352 75% 38%)" color-space="">
+                        <div slot="color-space"></div>
+                    </color-picker>
+                </div>
+                <div class="inner-container" id="thickness-container">
+                    <label for="thickness">Thickness</label><br>
+                    <input type="range" name="thickness" id="thickness" min="1" max="30" value="5">
+                    <label for="thickness"><svg width="50" height="50">
+                        <circle id="thickness-display" r="5" cx="25" cy="25" stroke="black" stroke-width="1" />
+                    </svg></label>
+                </div>
             </div>
             <div class="container">
                 <button onclick="submit()">Submit</button>

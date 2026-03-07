@@ -38,22 +38,41 @@ canvas.addEventListener("mousemove", (event) => {
     }
 });
 
-canvas.addEventListener("mouseup", (event) => {
+document.body.addEventListener("mouseup", (event) => {
     ctx.lineTo(event.clientX - offsetLeft, event.clientY - offsetTop);
     ctx.stroke();
     ctx.closePath();
     isDrawing = false;
+    ctx.beginPath();
 });
 
 // colour picker
 var picker = document.getElementById("picker");
 picker.addEventListener("colorchange", (event) => {
     if (event.detail != null && "value" in event.detail) {
-        var newValue = event.detail.value.coords;
-        console.log(`color(--hsv ${newValue[0]} ${newValue[1]}% ${newValue[2]}%)`);
-        ctx.strokeStyle =`hsl(${newValue[0]} ${newValue[1]} ${newValue[2]})`;
+        var newColourValue = event.detail.value.coords;
+        console.log(`color(--hsv ${newColourValue[0]} ${newColourValue[1]}% ${newColourValue[2]}%)`);
+        ctx.strokeStyle =`hsl(${newColourValue[0]} ${newColourValue[1]} ${newColourValue[2]})`;
     }
 });
+
+// thickness slider
+var thicknessSlider = document.getElementById("thickness");
+var thicknessDisplay = document.getElementById("thickness-display");
+thicknessSlider.value = 5;
+thicknessSlider.addEventListener("input", (event) => {
+    var thicknessValue = event.target.value;
+    ctx.lineWidth = thicknessValue;
+    thicknessDisplay.setAttribute("r", thicknessValue / 2)
+    console.log(thicknessValue);
+});
+picker.addEventListener("colorchange", (event) => {
+    if (event.detail != null && "value" in event.detail) {
+        var newColourValue = event.detail.value.coords;
+        thicknessDisplay.setAttribute("fill", `hsl(${newColourValue[0]} ${newColourValue[1]} ${newColourValue[2]})`);
+    }
+
+})
 
 
 // scoring
