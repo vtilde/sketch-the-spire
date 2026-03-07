@@ -47,7 +47,13 @@ canvas.addEventListener("mouseup", (event) => {
 
 // colour picker
 var picker = document.getElementById("picker");
-picker._slots.color_space.style.display = "none";
+picker.addEventListener("colorchange", (event) => {
+    if (event.detail != null && "value" in event.detail) {
+        var newValue = event.detail.value.coords;
+        console.log(`color(--hsv ${newValue[0]} ${newValue[1]}% ${newValue[2]}%)`);
+        ctx.strokeStyle =`hsl(${newValue[0]} ${newValue[1]} ${newValue[2]})`;
+    }
+});
 
 
 // scoring

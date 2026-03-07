@@ -5,24 +5,18 @@ body {
     width: 100%;
 }
 
-/* #drawing-canvas {
-    border: 2px solid red;
-} */
-
 .container {
     margin: 5px auto;
     max-width: 500px;
     display: flex;
     justify-content: center;
     border: 2px solid red;
+    padding: 15px;
 }
 
-color-picker {
-    display: none;
-}
-
-channel-slider {
-    width: 400px;
+#picker {
+    width: 100%;
+    --details-style: compact;
 }
 
 #real-card {
