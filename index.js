@@ -86,23 +86,7 @@ function reshapeImageData (data) {
     return newArray;
 };
 
-function colourDifference (col1, col2, space="lab") {
-    var diff = Math.sqrt(
-        ((col1[0] - col2[0]) ** 2) +
-        ((col1[1] - col2[1]) ** 2) +
-        ((col1[2] - col2[2]) ** 2)
-    );
-
-    return diff
-};
 function colourDistance (col1, col2, space="lab") {
-    // var diff = Math.sqrt(
-    //     ((col1[0] - col2[0]) ** 2) +
-    //     ((col1[1] - col2[1]) ** 2) +
-    //     ((col1[2] - col2[2]) ** 2)
-    // );
-
-    // return diff
     var col1Obj = new Color("srgb", col1.slice(0, 3));
     var col2Obj = new Color("srgb", col2.slice(0, 3));
     return Color.distance(col1Obj, col2Obj, space);
@@ -137,28 +121,20 @@ function submit () {
     var pixels = 0;
     for (i = 0; i < pixelData.length; i++) {
         if (pixelDataReal[i][3] == 255) { // ignore if transparent on real card (outside art frame)
-            // if (i<10) {
-            //     console.log("pixel #"+i.toString(), pixelData[i], pixelDataReal[i]);
-            //     console.log("sqrt ", colourDifference(pixelData[i], pixelDataReal[i]));
-            //     console.log("colorjs", colourDistance(pixelData[i], pixelDataReal[i], "lab"));
-            // }
-            // totalDist += colourDifference(pixelData[i], pixelDataReal[i]);
             totalDist += colourDistance(pixelData[i], pixelDataReal[i]);
             pixels += 1;
         };
     };
+    
+    // const worstDist = 9000; // black vs white in lab
+    const worstDist = 5000;
+    
     var meanDist = totalDist / pixels;
+    console.log(meanDist);
+    var accuracy = 100 - ((meanDist / worstDist) * 100);
+    accuracy = Math.max(0, accuracy);
 
-
-    // best score = 0 (no colour distance)
-    var black = new Color("lab", [100,0,0]);
-    var white = new Color("lab", [0,0,0]);
-    console.log("bwdist", Color.distance(black, white));
-    console.log("meandist", meanDist);
-
-
-    // document.getElementById("score-value").innerText = accuracy.toFixed(2);
-    document.getElementById("score-value").innerText = meanDist.toFixed(2);
+    document.getElementById("score-value").innerText = accuracy.toFixed(2);
 
     document.getElementById("drawing").style.display = "none";
     document.getElementById("results").style.display = "block";
