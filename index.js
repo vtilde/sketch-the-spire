@@ -16,6 +16,7 @@ canvas.width = 250;
 canvas.height = 190;
 const offsetLeft = canvas.offsetLeft;
 const offsetTop = canvas.offsetTop;
+console.log(canvas)
 
 const ctx = canvas.getContext("2d");
 ctx.fillStyle = "white";
@@ -28,25 +29,29 @@ let isDrawing = false;
 let lineWidth = 5;
 
 canvas.addEventListener("mousedown", (event) => {
+    console.log(event);
     ctx.beginPath();
-    ctx.moveTo(event.clientX - offsetLeft, event.clientY - offsetTop);
+    ctx.moveTo(event.layerX, event.layerY);
     isDrawing = true;
 });
 
 canvas.addEventListener("mousemove", (event) => {
     if (isDrawing) {
-        ctx.lineTo(event.clientX - offsetLeft, event.clientY - offsetTop);
+        ctx.lineTo(event.layerX, event.layerY);
         ctx.stroke();
     }
 });
 
 document.body.addEventListener("mouseup", (event) => {
-    ctx.lineTo(event.clientX - offsetLeft, event.clientY - offsetTop);
+    ctx.lineTo(event.layerX, event.layerY);
     ctx.stroke();
     ctx.closePath();
     isDrawing = false;
     ctx.beginPath();
 });
+
+// drawing border
+var cardui
 
 // colour picker
 var picker = document.getElementById("picker");
@@ -76,7 +81,6 @@ picker.addEventListener("colorchange", (event) => {
 
 
 // scoring
-
 function reshapeImageData (data) {
     var pixelData = data.data;
     var newArray = [];
@@ -93,7 +97,6 @@ function colourDistance (col1, col2, space="lab") {
 };
 
 function submit () {
-    console.log("submtited");
     canvas.toBlob((blob) => {
         // copy canvas to new img
         const drawnCardURL = URL.createObjectURL(blob);
@@ -106,13 +109,11 @@ function submit () {
     
     // real card
     var canvasReal = document.createElement("canvas");
-    canvasReal.id = "canvasReal";
     var ctxReal = canvasReal.getContext("2d");
     var imgReal = document.getElementById("real-card");
     canvasReal.width = imgReal.width;
     canvasReal.height = imgReal.height;
     ctxReal.drawImage(imgReal, 0, 0);
-    document.body.prepend(canvasReal);
     var imageDataReal = ctxReal.getImageData(0, 0, canvasReal.width, canvasReal.height, {colorSpace: "srgb"});
     var pixelDataReal = reshapeImageData(imageDataReal);
 
@@ -130,7 +131,6 @@ function submit () {
     const worstDist = 5000;
     
     var meanDist = totalDist / pixels;
-    console.log(meanDist);
     var accuracy = 100 - ((meanDist / worstDist) * 100);
     accuracy = Math.max(0, accuracy);
 

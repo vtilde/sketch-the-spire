@@ -21,11 +21,60 @@ body {
     padding: 10px;
 }
 
-
-/* drawing */
 .inner-container {
     padding: 5px;
     /* border: 2px solid blue; */
+}
+
+
+/* drawing */
+#drawing-container {
+    justify-content: flex-start;
+    width: 298px;
+    height: 418px;
+}
+#cardui-container {
+    position: absolute;
+    width: 250px;
+    height: 596px;
+}
+.cardui-part {
+    position: absolute;
+    pointer-events: none;
+}
+.cardui-base {
+    width: 298px;
+    height: 418px;
+    top: 10px;
+}
+.cardui-border {
+    width: 262px;
+    height: 185px;
+    left: 20px;
+    top: 70px;
+}
+.cardui-banner {
+    width: 323px;
+    height: 71px;
+    left: -10px;
+    top: 21px;
+}
+.cardui-energy {
+    width: 66px;
+    height: 66px;
+    left: -15px;
+    top: -12px;
+}
+
+#canvas-container {
+    position: absolute;
+}
+#drawing-canvas {
+    position: absolute;
+    width: 250px;
+    height: 190px;
+    left: 22px;
+    top: 30px;
 }
 
 canvas {

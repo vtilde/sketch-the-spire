@@ -1,1 +1,3332 @@
-{"Red-Bash": {"name": "Bash", "type": "Attack", "rarity": "Basic", "colour": "Red", "cost": "2", "description": "Deal 8 (10) damage. Apply 2 (3) Vulnerable.", "descriptionUpgraded": ""}, "Red-Defend": {"name": "Defend", "type": "Skill", "rarity": "Basic", "colour": "Red", "cost": "1", "description": "Gain 5 (8) Block.", "descriptionUpgraded": ""}, "Red-Strike": {"name": "Strike", "type": "Attack", "rarity": "Basic", "colour": "Red", "cost": "1", "description": "Deal 6 (9) damage.", "descriptionUpgraded": ""}, "Red-Anger": {"name": "Anger", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "0", "description": "Deal 6 (8) damage. Add a copy of this card into your discard pile.", "descriptionUpgraded": ""}, "Red-Armaments": {"name": "Armaments", "type": "Skill", "rarity": "Common", "colour": "Red", "cost": "1", "description": "Gain 5 Block. Upgrade a card in your hand for the rest of combat.", "descriptionUpgraded": "Gain 5 Block. Upgrade all cards in your hand for the rest of combat."}, "Red-Body Slam": {"name": "Body Slam", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "1 (0)", "description": "Deal damage equal to your Block.", "descriptionUpgraded": ""}, "Red-Clash": {"name": "Clash", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "0", "description": "Can only be played if every card in your hand is an Attack. Deal 14 (18) damage.", "descriptionUpgraded": ""}, "Red-Cleave": {"name": "Cleave", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "1", "description": "Deal 8 (11) damage to ALL enemies.", "descriptionUpgraded": ""}, "Red-Clothesline": {"name": "Clothesline", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "2", "description": "Deal 12 (14) damage. Apply 2 (3) Weak.", "descriptionUpgraded": ""}, "Red-Flex": {"name": "Flex", "type": "Skill", "rarity": "Common", "colour": "Red", "cost": "0", "description": "Gain 2 (4) Strength. At the end of this turn, lose 2 (4) Strength.", "descriptionUpgraded": ""}, "Red-Havoc": {"name": "Havoc", "type": "Skill", "rarity": "Common", "colour": "Red", "cost": "1 (0)", "description": "Play the top card of your draw pile and Exhaust it.", "descriptionUpgraded": ""}, "Red-Headbutt": {"name": "Headbutt", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "1", "description": "Deal 9 (12) damage. Put a card from your discard pile on top of your draw pile.", "descriptionUpgraded": ""}, "Red-Heavy Blade": {"name": "Heavy Blade", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "2", "description": "Deal 14 damage. Strength affects this card 3 (5) times.", "descriptionUpgraded": ""}, "Red-Iron Wave": {"name": "Iron Wave", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "1", "description": "Gain 5 (7) Block. Deal 5 (7) damage.", "descriptionUpgraded": ""}, "Red-Perfected Strike": {"name": "Perfected Strike", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "2", "description": "Deal 6 damage. Deals 2 (3) additional damage for ALL your cards containing \"Strike\".", "descriptionUpgraded": ""}, "Red-Pommel Strike": {"name": "Pommel Strike", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "1", "description": "Deal 9 damage. Draw 1 card.", "descriptionUpgraded": "Deal 10 damage. Draw 2 cards."}, "Red-Shrug It Off": {"name": "Shrug It Off", "type": "Skill", "rarity": "Common", "colour": "Red", "cost": "1", "description": "Gain 8 (11) Block. Draw 1 card.", "descriptionUpgraded": ""}, "Red-Sword Boomerang": {"name": "Sword Boomerang", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "1", "description": "Deal 3 damage to a random enemy 3 (4) times.", "descriptionUpgraded": ""}, "Red-Thunderclap": {"name": "Thunderclap", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "1", "description": "Deal 4 (7) damage and apply 1 Vulnerable to ALL enemies.", "descriptionUpgraded": ""}, "Red-True Grit": {"name": "True Grit", "type": "Skill", "rarity": "Common", "colour": "Red", "cost": "1", "description": "Gain 7 Block. Exhaust 1 card at random.", "descriptionUpgraded": "Gain 9 Block. Exhaust 1 card."}, "Red-Twin Strike": {"name": "Twin Strike", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "1", "description": "Deal 5 (7) damage twice.", "descriptionUpgraded": ""}, "Red-Warcry": {"name": "Warcry", "type": "Skill", "rarity": "Common", "colour": "Red", "cost": "0", "description": "Draw 1 card. Put a card from your hand onto the top of your draw pile. Exhaust.", "descriptionUpgraded": "Draw 2 cards. Put a card from your hand onto the top of your draw pile. Exhaust."}, "Red-Wild Strike": {"name": "Wild Strike", "type": "Attack", "rarity": "Common", "colour": "Red", "cost": "1", "description": "Deal 12 (17) damage. Shuffle a Wound into your draw pile.", "descriptionUpgraded": ""}, "Red-Battle Trance": {"name": "Battle Trance", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "0", "description": "Draw 3 (4) cards. You cannot draw additional cards this turn.", "descriptionUpgraded": ""}, "Red-Blood for Blood": {"name": "Blood for Blood", "type": "Attack", "rarity": "Uncommon", "colour": "Red", "cost": "4 (3)", "description": "Costs 1 less [R] for each time you lose HP this combat. Deal 18 (22) damage.", "descriptionUpgraded": ""}, "Red-Bloodletting": {"name": "Bloodletting", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "0", "description": "Lose 3 HP. Gain [R] [R].", "descriptionUpgraded": "Lose 3 HP. Gain [R] [R] [R]."}, "Red-Burning Pact": {"name": "Burning Pact", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Exhaust 1 card. Draw 2 (3) cards.", "descriptionUpgraded": ""}, "Red-Carnage": {"name": "Carnage", "type": "Attack", "rarity": "Uncommon", "colour": "Red", "cost": "2", "description": "Ethereal. Deal 20 (28) damage.", "descriptionUpgraded": ""}, "Red-Combust": {"name": "Combust", "type": "Power", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "At the end of your turn, lose 1 HP and deal 5 (7) damage to ALL enemies.", "descriptionUpgraded": ""}, "Red-Dark Embrace": {"name": "Dark Embrace", "type": "Power", "rarity": "Uncommon", "colour": "Red", "cost": "2 (1)", "description": "Whenever a card is Exhausted, draw 1 card.", "descriptionUpgraded": ""}, "Red-Disarm": {"name": "Disarm", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Enemy loses 2 (3) Strength. Exhaust.", "descriptionUpgraded": ""}, "Red-Dropkick": {"name": "Dropkick", "type": "Attack", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Deal 5 (8) damage. If the enemy has Vulnerable, gain [R] and draw 1 card.", "descriptionUpgraded": ""}, "Red-Dual Wield": {"name": "Dual Wield", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Choose an Attack or Power card. Add a copy of that card into your hand.", "descriptionUpgraded": "Choose an Attack or Power card. Add 2 copies of that card into your hand."}, "Red-Entrench": {"name": "Entrench", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "2 (1)", "description": "Double your Block.", "descriptionUpgraded": ""}, "Red-Evolve": {"name": "Evolve", "type": "Power", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Whenever you draw a Status card, draw 1 card.", "descriptionUpgraded": "Whenever you draw a Status card, draw 2 cards."}, "Red-Feel No Pain": {"name": "Feel No Pain", "type": "Power", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Whenever a card is Exhausted, gain 3 (4) Block.", "descriptionUpgraded": ""}, "Red-Fire Breathing": {"name": "Fire Breathing", "type": "Power", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Whenever you draw a Status or Curse card, deal 6 (10) damage to ALL enemies.", "descriptionUpgraded": ""}, "Red-Flame Barrier": {"name": "Flame Barrier", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "2", "description": "Gain 12 (16) Block. Whenever you are attacked this turn, deal 4 (6) damage back.", "descriptionUpgraded": ""}, "Red-Ghostly Armor": {"name": "Ghostly Armor", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Ethereal. Gain 10 (13) Block.", "descriptionUpgraded": ""}, "Red-Hemokinesis": {"name": "Hemokinesis", "type": "Attack", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Lose 2 HP. Deal 15 (20) damage.", "descriptionUpgraded": ""}, "Red-Infernal Blade": {"name": "Infernal Blade", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "1 (0)", "description": "Add a random Attack into your hand. It costs 0 this turn. Exhaust.", "descriptionUpgraded": ""}, "Red-Inflame": {"name": "Inflame", "type": "Power", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Gain 2 (3) Strength.", "descriptionUpgraded": ""}, "Red-Intimidate": {"name": "Intimidate", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "0", "description": "Apply 1 (2) Weak to ALL enemies. Exhaust.", "descriptionUpgraded": ""}, "Red-Metallicize": {"name": "Metallicize", "type": "Power", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "At the end of your turn, gain 3 (4) Block.", "descriptionUpgraded": ""}, "Red-Power Through": {"name": "Power Through", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Add 2 Wounds into your hand. Gain 15 (20) Block.", "descriptionUpgraded": ""}, "Red-Pummel": {"name": "Pummel", "type": "Attack", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Deal 2 damage 4 (5) times. Exhaust.", "descriptionUpgraded": ""}, "Red-Rage": {"name": "Rage", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "0", "description": "Whenever you play an Attack this turn, gain 3 (5) Block.", "descriptionUpgraded": ""}, "Red-Rampage": {"name": "Rampage", "type": "Attack", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Deal 8 damage. Increase this card's damage by 5 (8) this combat.", "descriptionUpgraded": ""}, "Red-Reckless Charge": {"name": "Reckless Charge", "type": "Attack", "rarity": "Uncommon", "colour": "Red", "cost": "0", "description": "Deal 7 (10) damage. Shuffle a Dazed into your draw pile.", "descriptionUpgraded": ""}, "Red-Rupture": {"name": "Rupture", "type": "Power", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Whenever you lose HP from a card, gain 1 (2) Strength.", "descriptionUpgraded": ""}, "Red-Searing Blow": {"name": "Searing Blow", "type": "Attack", "rarity": "Uncommon", "colour": "Red", "cost": "2", "description": "Deal 12 (16) damage. Can be Upgraded any number of times.", "descriptionUpgraded": ""}, "Red-Second Wind": {"name": "Second Wind", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Exhaust all non-Attack cards in your hand. Gain 5 (7) Block for each card Exhausted.", "descriptionUpgraded": ""}, "Red-Seeing Red": {"name": "Seeing Red", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "1 (0)", "description": "Gain [R] [R]. Exhaust.", "descriptionUpgraded": ""}, "Red-Sentinel": {"name": "Sentinel", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "Gain 5 Block. If this card is Exhausted, gain [R] [R].", "descriptionUpgraded": "Gain 8 Block. If this card is Exhausted, gain [R] [R] [R]."}, "Red-Sever Soul": {"name": "Sever Soul", "type": "Attack", "rarity": "Uncommon", "colour": "Red", "cost": "2", "description": "Exhaust all non-Attack cards in your hand. Deal 16 (22) damage.", "descriptionUpgraded": ""}, "Red-Shockwave": {"name": "Shockwave", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "2", "description": "Apply 3 (5) Weak and Vulnerable to ALL enemies. Exhaust.", "descriptionUpgraded": ""}, "Red-Spot Weakness": {"name": "Spot Weakness", "type": "Skill", "rarity": "Uncommon", "colour": "Red", "cost": "1", "description": "If the enemy intends to attack, gain 3 (4) Strength.", "descriptionUpgraded": ""}, "Red-Uppercut": {"name": "Uppercut", "type": "Attack", "rarity": "Uncommon", "colour": "Red", "cost": "2", "description": "Deal 13 damage. Apply 1 (2) Weak. Apply 1 (2) Vulnerable.", "descriptionUpgraded": ""}, "Red-Whirlwind": {"name": "Whirlwind", "type": "Attack", "rarity": "Uncommon", "colour": "Red", "cost": "X", "description": "Deal 5 (8) damage to ALL enemies X times.", "descriptionUpgraded": ""}, "Red-Barricade": {"name": "Barricade", "type": "Power", "rarity": "Rare", "colour": "Red", "cost": "3 (2)", "description": "Block is not removed at the start of your turn.", "descriptionUpgraded": ""}, "Red-Berserk": {"name": "Berserk", "type": "Power", "rarity": "Rare", "colour": "Red", "cost": "0", "description": "Gain 2 (1) Vulnerable. At the start of your turn, gain [R].", "descriptionUpgraded": ""}, "Red-Bludgeon": {"name": "Bludgeon", "type": "Attack", "rarity": "Rare", "colour": "Red", "cost": "3", "description": "Deal 32 (42) damage.", "descriptionUpgraded": ""}, "Red-Brutality": {"name": "Brutality", "type": "Power", "rarity": "Rare", "colour": "Red", "cost": "0", "description": "At the start of your turn, lose 1 HP and draw 1 card.", "descriptionUpgraded": "Innate. At the start of your turn, lose 1 HP and draw 1 card."}, "Red-Corruption": {"name": "Corruption", "type": "Power", "rarity": "Rare", "colour": "Red", "cost": "3 (2)", "description": "Skills cost 0. Whenever you play a Skill, Exhaust it.", "descriptionUpgraded": ""}, "Red-Demon Form": {"name": "Demon Form", "type": "Power", "rarity": "Rare", "colour": "Red", "cost": "3", "description": "At the start of your turn, gain 2 (3) Strength.", "descriptionUpgraded": ""}, "Red-Double Tap": {"name": "Double Tap", "type": "Skill", "rarity": "Rare", "colour": "Red", "cost": "1", "description": "This turn, your next Attack is played twice.", "descriptionUpgraded": "This turn, your next 2 Attacks are played twice."}, "Red-Exhume": {"name": "Exhume", "type": "Skill", "rarity": "Rare", "colour": "Red", "cost": "1 (0)", "description": "Put a card from your exhaust pile into your hand. Exhaust.", "descriptionUpgraded": ""}, "Red-Feed": {"name": "Feed", "type": "Attack", "rarity": "Rare", "colour": "Red", "cost": "1", "description": "Deal 10 (12) damage. If Fatal, raise your Max HP by 3 (4). Exhaust.", "descriptionUpgraded": ""}, "Red-Fiend Fire": {"name": "Fiend Fire", "type": "Attack", "rarity": "Rare", "colour": "Red", "cost": "2", "description": "Exhaust your hand. Deal 7 (10) damage for each card Exhausted. Exhaust.", "descriptionUpgraded": ""}, "Red-Immolate": {"name": "Immolate", "type": "Attack", "rarity": "Rare", "colour": "Red", "cost": "2", "description": "Deal 21 (28) damage to ALL enemies. Add a Burn into your discard pile.", "descriptionUpgraded": ""}, "Red-Impervious": {"name": "Impervious", "type": "Skill", "rarity": "Rare", "colour": "Red", "cost": "2", "description": "Gain 30 (40) Block. Exhaust.", "descriptionUpgraded": ""}, "Red-Juggernaut": {"name": "Juggernaut", "type": "Power", "rarity": "Rare", "colour": "Red", "cost": "2", "description": "Whenever you gain Block, deal 5 (7) damage to a random enemy.", "descriptionUpgraded": ""}, "Red-Limit Break": {"name": "Limit Break", "type": "Skill", "rarity": "Rare", "colour": "Red", "cost": "1", "description": "Double your Strength. Exhaust.", "descriptionUpgraded": "Double your Strength."}, "Red-Offering": {"name": "Offering", "type": "Skill", "rarity": "Rare", "colour": "Red", "cost": "0", "description": "Lose 6 HP. Gain [R] [R]. Draw 3 (5) cards. Exhaust.", "descriptionUpgraded": ""}, "Red-Reaper": {"name": "Reaper", "type": "Attack", "rarity": "Rare", "colour": "Red", "cost": "2", "description": "Deal 4 (5) damage to ALL enemies. Heal HP equal to unblocked damage. Exhaust.", "descriptionUpgraded": ""}, "Green-Defend": {"name": "Defend", "type": "Skill", "rarity": "Basic", "colour": "Green", "cost": "1", "description": "Gain 5 (8) Block.", "descriptionUpgraded": ""}, "Green-Neutralize": {"name": "Neutralize", "type": "Attack", "rarity": "Basic", "colour": "Green", "cost": "0", "description": "Deal 3 (4) damage. Apply 1 (2) Weak.", "descriptionUpgraded": ""}, "Green-Strike": {"name": "Strike", "type": "Attack", "rarity": "Basic", "colour": "Green", "cost": "1", "description": "Deal 6 (9) damage.", "descriptionUpgraded": ""}, "Green-Survivor": {"name": "Survivor", "type": "Skill", "rarity": "Basic", "colour": "Green", "cost": "1", "description": "Gain 8 (11) Block. Discard 1 card.", "descriptionUpgraded": ""}, "Green-Acrobatics": {"name": "Acrobatics", "type": "Skill", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Draw 3 (4) cards. Discard 1 card.", "descriptionUpgraded": ""}, "Green-Backflip": {"name": "Backflip", "type": "Skill", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Gain 5 (8) Block. Draw 2 cards.", "descriptionUpgraded": ""}, "Green-Bane": {"name": "Bane", "type": "Attack", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Deal 7 (10) damage. If the enemy has Poison, deal 7 (10) damage again.", "descriptionUpgraded": ""}, "Green-Blade Dance": {"name": "Blade Dance", "type": "Skill", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Add 3 (4) Shivs into your hand.", "descriptionUpgraded": ""}, "Green-Cloak and Dagger": {"name": "Cloak and Dagger", "type": "Skill", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Gain 6 Block. Add 1 Shiv into your hand.", "descriptionUpgraded": "Gain 6 Block. Add 2 Shivs into your hand."}, "Green-Dagger Spray": {"name": "Dagger Spray", "type": "Attack", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Deal 4 (6) damage to ALL enemies twice.", "descriptionUpgraded": ""}, "Green-Dagger Throw": {"name": "Dagger Throw", "type": "Attack", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Deal 9 (12) damage. Draw 1 card. Discard 1 card.", "descriptionUpgraded": ""}, "Green-Deadly Poison": {"name": "Deadly Poison", "type": "Skill", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Apply 5 (7) Poison.", "descriptionUpgraded": ""}, "Green-Deflect": {"name": "Deflect", "type": "Skill", "rarity": "Common", "colour": "Green", "cost": "0", "description": "Gain 4 (7) Block.", "descriptionUpgraded": ""}, "Green-Dodge and Roll": {"name": "Dodge and Roll", "type": "Skill", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Gain 4 (6) Block. Next turn, gain 4 (6) Block.", "descriptionUpgraded": ""}, "Green-Flying Knee": {"name": "Flying Knee", "type": "Attack", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Deal 8 (11) damage. Next turn, gain [G].", "descriptionUpgraded": ""}, "Green-Outmaneuver": {"name": "Outmaneuver", "type": "Skill", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Next turn, gain [G] [G].", "descriptionUpgraded": "Next turn, gain [G] [G] [G]."}, "Green-Piercing Wail": {"name": "Piercing Wail", "type": "Skill", "rarity": "Common", "colour": "Green", "cost": "1", "description": "ALL enemies lose 6 (8) Strength this turn. Exhaust.", "descriptionUpgraded": ""}, "Green-Poisoned Stab": {"name": "Poisoned Stab", "type": "Attack", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Deal 6 (8) damage. Apply 3 (4) Poison.", "descriptionUpgraded": ""}, "Green-Prepared": {"name": "Prepared", "type": "Skill", "rarity": "Common", "colour": "Green", "cost": "0", "description": "Draw 1 card. Discard 1 card.", "descriptionUpgraded": "Draw 2 cards. Discard 2 cards."}, "Green-Quick Slash": {"name": "Quick Slash", "type": "Attack", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Deal 8 (12) damage. Draw 1 card.", "descriptionUpgraded": ""}, "Green-Slice": {"name": "Slice", "type": "Attack", "rarity": "Common", "colour": "Green", "cost": "0", "description": "Deal 6 (9) damage.", "descriptionUpgraded": ""}, "Green-Sneaky Strike": {"name": "Sneaky Strike", "type": "Attack", "rarity": "Common", "colour": "Green", "cost": "2", "description": "Deal 12 (16) damage. If you have discarded a card this turn, gain [G] [G].", "descriptionUpgraded": ""}, "Green-Sucker Punch": {"name": "Sucker Punch", "type": "Attack", "rarity": "Common", "colour": "Green", "cost": "1", "description": "Deal 7 (9) damage. Apply 1 (2) Weak.", "descriptionUpgraded": ""}, "Green-Accuracy": {"name": "Accuracy", "type": "Power", "rarity": "Uncommon", "colour": "Green", "cost": "1", "description": "Shivs deal 4 (6) additional damage.", "descriptionUpgraded": ""}, "Green-All-Out Attack": {"name": "All-Out Attack", "type": "Attack", "rarity": "Uncommon", "colour": "Green", "cost": "1", "description": "Deal 10 (14) damage to ALL enemies. Discard 1 card at random.", "descriptionUpgraded": ""}, "Green-Backstab": {"name": "Backstab", "type": "Attack", "rarity": "Uncommon", "colour": "Green", "cost": "0", "description": "Innate. Deal 11 (15) damage. Exhaust.", "descriptionUpgraded": ""}, "Green-Blur": {"name": "Blur", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "1", "description": "Gain 5 (8) Block. Block is not removed at the start of your next turn.", "descriptionUpgraded": ""}, "Green-Bouncing Flask": {"name": "Bouncing Flask", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "2", "description": "Apply 3 Poison to a random enemy 3 (4) times.", "descriptionUpgraded": ""}, "Green-Calculated Gamble": {"name": "Calculated Gamble", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "0", "description": "Discard your hand, then draw that many cards. Exhaust.", "descriptionUpgraded": "Discard your hand, then draw that many cards."}, "Green-Caltrops": {"name": "Caltrops", "type": "Power", "rarity": "Uncommon", "colour": "Green", "cost": "1", "description": "Whenever you are attacked, deal 3 (5) damage back.", "descriptionUpgraded": ""}, "Green-Catalyst": {"name": "Catalyst", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "1", "description": "Double the enemy's Poison. Exhaust.", "descriptionUpgraded": "Triple the enemy's Poison. Exhaust."}, "Green-Choke": {"name": "Choke", "type": "Attack", "rarity": "Uncommon", "colour": "Green", "cost": "2", "description": "Deal 12 damage. Whenever you play a card this turn, the enemy loses 3 (5) HP.", "descriptionUpgraded": ""}, "Green-Concentrate": {"name": "Concentrate", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "0", "description": "Discard 3 (2) cards. Gain [G] [G].", "descriptionUpgraded": ""}, "Green-Crippling Cloud": {"name": "Crippling Cloud", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "2", "description": "Apply 4 (7) Poison and 2 Weak to ALL enemies. Exhaust.", "descriptionUpgraded": ""}, "Green-Dash": {"name": "Dash", "type": "Attack", "rarity": "Uncommon", "colour": "Green", "cost": "2", "description": "Gain 10 (13) Block. Deal 10 (13) damage.", "descriptionUpgraded": ""}, "Green-Distraction": {"name": "Distraction", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "1 (0)", "description": "Add a random Skill into your hand. It costs 0 this turn. Exhaust.", "descriptionUpgraded": ""}, "Green-Endless Agony": {"name": "Endless Agony", "type": "Attack", "rarity": "Uncommon", "colour": "Green", "cost": "0", "description": "Deal 4 (6) damage. Whenever you draw this card, add a copy of it into your hand. Exhaust.", "descriptionUpgraded": ""}, "Green-Escape Plan": {"name": "Escape Plan", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "0", "description": "Draw 1 card. If you draw a Skill, gain 3 (5) Block.", "descriptionUpgraded": ""}, "Green-Eviscerate": {"name": "Eviscerate", "type": "Attack", "rarity": "Uncommon", "colour": "Green", "cost": "3", "description": "Costs 1 less [G] for each card discarded this turn. Deal 7 (9) damage 3 times.", "descriptionUpgraded": ""}, "Green-Expertise": {"name": "Expertise", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "1", "description": "Draw cards until you have 6 (7) in your hand.", "descriptionUpgraded": ""}, "Green-Finisher": {"name": "Finisher", "type": "Attack", "rarity": "Uncommon", "colour": "Green", "cost": "1", "description": "Deal 6 (8) damage for each Attack played this turn.", "descriptionUpgraded": ""}, "Green-Flechettes": {"name": "Flechettes", "type": "Attack", "rarity": "Uncommon", "colour": "Green", "cost": "1", "description": "Deal 4 (6) damage for each Skill in your hand.", "descriptionUpgraded": ""}, "Green-Footwork": {"name": "Footwork", "type": "Power", "rarity": "Uncommon", "colour": "Green", "cost": "1", "description": "Gain 2 (3) Dexterity.", "descriptionUpgraded": ""}, "Green-Heel Hook": {"name": "Heel Hook", "type": "Attack", "rarity": "Uncommon", "colour": "Green", "cost": "1", "description": "Deal 5 (8) damage. If the enemy has Weak, gain [G] and draw 1 card.", "descriptionUpgraded": ""}, "Green-Infinite Blades": {"name": "Infinite Blades", "type": "Power", "rarity": "Uncommon", "colour": "Green", "cost": "1", "description": "At the start of your turn, add a Shiv into your hand.", "descriptionUpgraded": "Innate. At the start of your turn, add a Shiv into your hand."}, "Green-Leg Sweep": {"name": "Leg Sweep", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "2", "description": "Apply 2 (3) Weak. Gain 11 (14) Block.", "descriptionUpgraded": ""}, "Green-Masterful Stab": {"name": "Masterful Stab", "type": "Attack", "rarity": "Uncommon", "colour": "Green", "cost": "0", "description": "Costs 1 additional [G] for each time you lose HP this combat. Deal 12 (16) damage.", "descriptionUpgraded": ""}, "Green-Noxious Fumes": {"name": "Noxious Fumes", "type": "Power", "rarity": "Uncommon", "colour": "Green", "cost": "1", "description": "At the start of your turn, apply 2 (3) Poison to ALL enemies.", "descriptionUpgraded": ""}, "Green-Predator": {"name": "Predator", "type": "Attack", "rarity": "Uncommon", "colour": "Green", "cost": "2", "description": "Deal 15 (20) damage. Next turn, draw 2 additional cards.", "descriptionUpgraded": ""}, "Green-Reflex": {"name": "Reflex", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "Unplayable", "description": "Unplayable. If this card is discarded from your hand, draw 2 cards.", "descriptionUpgraded": "Unplayable. If this card is discarded from your hand, draw 3 cards."}, "Green-Riddle with Holes": {"name": "Riddle with Holes", "type": "Attack", "rarity": "Uncommon", "colour": "Green", "cost": "2", "description": "Deal 3 (4) damage 5 times.", "descriptionUpgraded": ""}, "Green-Setup": {"name": "Setup", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "1 (0)", "description": "Put a card from your hand on top of your draw pile. It costs 0 until played.", "descriptionUpgraded": ""}, "Green-Skewer": {"name": "Skewer", "type": "Attack", "rarity": "Uncommon", "colour": "Green", "cost": "X", "description": "Deal 7 (10) damage X times.", "descriptionUpgraded": ""}, "Green-Tactician": {"name": "Tactician", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "Unplayable", "description": "Unplayable. If this card is discarded from your hand, gain [G].", "descriptionUpgraded": "Unplayable. If this card is discarded from your hand, gain [G] [G]."}, "Green-Terror": {"name": "Terror", "type": "Skill", "rarity": "Uncommon", "colour": "Green", "cost": "1 (0)", "description": "Apply 99 Vulnerable. Exhaust.", "descriptionUpgraded": ""}, "Green-Well-Laid Plans": {"name": "Well-Laid Plans", "type": "Power", "rarity": "Uncommon", "colour": "Green", "cost": "1", "description": "At the end of your turn, Retain up to 1 card.", "descriptionUpgraded": "At the end of your turn, Retain up to 2 cards."}, "Green-A Thousand Cuts": {"name": "A Thousand Cuts", "type": "Power", "rarity": "Rare", "colour": "Green", "cost": "2", "description": "Whenever you play a card, deal 1 (2) damage to ALL enemies.", "descriptionUpgraded": ""}, "Green-Adrenaline": {"name": "Adrenaline", "type": "Skill", "rarity": "Rare", "colour": "Green", "cost": "0", "description": "Gain [G]. Draw 2 cards. Exhaust.", "descriptionUpgraded": "Gain [G] [G]. Draw 2 cards. Exhaust."}, "Green-After Image": {"name": "After Image", "type": "Power", "rarity": "Rare", "colour": "Green", "cost": "1", "description": "Whenever you play a card, gain 1 Block.", "descriptionUpgraded": "Innate. Whenever you play a card, gain 1 Block."}, "Green-Alchemize": {"name": "Alchemize", "type": "Skill", "rarity": "Rare", "colour": "Green", "cost": "1 (0)", "description": "Obtain a random potion. Exhaust.", "descriptionUpgraded": ""}, "Green-Bullet Time": {"name": "Bullet Time", "type": "Skill", "rarity": "Rare", "colour": "Green", "cost": "3 (2)", "description": "You cannot draw additional cards this turn. Reduce the cost of all cards in your hand to 0 this turn.", "descriptionUpgraded": ""}, "Green-Burst": {"name": "Burst", "type": "Skill", "rarity": "Rare", "colour": "Green", "cost": "1", "description": "This turn, your next Skill is played twice.", "descriptionUpgraded": "This turn, your next 2 Skills are played twice."}, "Green-Corpse Explosion": {"name": "Corpse Explosion", "type": "Skill", "rarity": "Rare", "colour": "Green", "cost": "2", "description": "Apply 6 (9) Poison. When the enemy dies, deal damage equal to its Max HP to ALL enemies.", "descriptionUpgraded": ""}, "Green-Die Die Die": {"name": "Die Die Die", "type": "Attack", "rarity": "Rare", "colour": "Green", "cost": "1", "description": "Deal 13 (17) damage to ALL enemies. Exhaust.", "descriptionUpgraded": ""}, "Green-Doppelganger": {"name": "Doppelganger", "type": "Skill", "rarity": "Rare", "colour": "Green", "cost": "X", "description": "Next turn, draw X cards and gain X [G]. Exhaust.", "descriptionUpgraded": "Next turn, draw X+1 cards and gain X+1 [G]. Exhaust."}, "Green-Envenom": {"name": "Envenom", "type": "Power", "rarity": "Rare", "colour": "Green", "cost": "2 (1)", "description": "Whenever an Attack deals unblocked damage, apply 1 Poison.", "descriptionUpgraded": ""}, "Green-Glass Knife": {"name": "Glass Knife", "type": "Attack", "rarity": "Rare", "colour": "Green", "cost": "1", "description": "Deal 8 (12) damage twice. Decrease the damage of this card by 2 this combat.", "descriptionUpgraded": ""}, "Green-Grand Finale": {"name": "Grand Finale", "type": "Attack", "rarity": "Rare", "colour": "Green", "cost": "0", "description": "Can only be played if there are no cards in your draw pile. Deal 50 (60) damage to ALL enemies.", "descriptionUpgraded": ""}, "Green-Malaise": {"name": "Malaise", "type": "Skill", "rarity": "Rare", "colour": "Green", "cost": "X", "description": "Enemy loses X Strength. Apply X Weak. Exhaust.", "descriptionUpgraded": "Enemy loses X+1 Strength. Apply X+1 Weak. Exhaust."}, "Green-Nightmare": {"name": "Nightmare", "type": "Skill", "rarity": "Rare", "colour": "Green", "cost": "3 (2)", "description": "Choose a card. Next turn, add 3 copies of that card into your hand. Exhaust.", "descriptionUpgraded": ""}, "Green-Phantasmal Killer": {"name": "Phantasmal Killer", "type": "Skill", "rarity": "Rare", "colour": "Green", "cost": "1 (0)", "description": "Next turn, your Attacks deal double damage.", "descriptionUpgraded": ""}, "Green-Storm of Steel": {"name": "Storm of Steel", "type": "Skill", "rarity": "Rare", "colour": "Green", "cost": "1", "description": "Discard your hand. Add 1 Shiv into your hand for each card discarded.", "descriptionUpgraded": "Discard your hand. Add 1 Shiv+ into your hand for each card discarded."}, "Green-Tools of the Trade": {"name": "Tools of the Trade", "type": "Power", "rarity": "Rare", "colour": "Green", "cost": "1 (0)", "description": "At the start of your turn, draw 1 card and discard 1 card.", "descriptionUpgraded": ""}, "Green-Unload": {"name": "Unload", "type": "Attack", "rarity": "Rare", "colour": "Green", "cost": "1", "description": "Deal 14 (18) damage. Discard all non-Attack cards in your hand.", "descriptionUpgraded": ""}, "Green-Wraith Form": {"name": "Wraith Form", "type": "Power", "rarity": "Rare", "colour": "Green", "cost": "3", "description": "Gain 2 (3) Intangible. At the end of your turn, lose 1 Dexterity.", "descriptionUpgraded": ""}, "Blue-Defend": {"name": "Defend", "type": "Skill", "rarity": "Basic", "colour": "Blue", "cost": "1", "description": "Gain 5 (8) Block.", "descriptionUpgraded": ""}, "Blue-Dualcast": {"name": "Dualcast", "type": "Skill", "rarity": "Basic", "colour": "Blue", "cost": "1 (0)", "description": "Evoke your next Orb twice.", "descriptionUpgraded": ""}, "Blue-Strike": {"name": "Strike", "type": "Attack", "rarity": "Basic", "colour": "Blue", "cost": "1", "description": "Deal 6 (9) damage.", "descriptionUpgraded": ""}, "Blue-Zap": {"name": "Zap", "type": "Skill", "rarity": "Basic", "colour": "Blue", "cost": "1 (0)", "description": "Channel 1 Lightning.", "descriptionUpgraded": ""}, "Blue-Ball Lightning": {"name": "Ball Lightning", "type": "Attack", "rarity": "Common", "colour": "Blue", "cost": "1", "description": "Deal 7 (10) damage. Channel 1 Lightning.", "descriptionUpgraded": ""}, "Blue-Barrage": {"name": "Barrage", "type": "Attack", "rarity": "Common", "colour": "Blue", "cost": "1", "description": "Deal 4 (6) damage for each Channeled Orb.", "descriptionUpgraded": ""}, "Blue-Beam Cell": {"name": "Beam Cell", "type": "Attack", "rarity": "Common", "colour": "Blue", "cost": "0", "description": "Deal 3 (4) damage. Apply 1 (2) Vulnerable.", "descriptionUpgraded": ""}, "Blue-Charge Battery": {"name": "Charge Battery", "type": "Skill", "rarity": "Common", "colour": "Blue", "cost": "1", "description": "Gain 7 (10) Block. Next turn, gain [B].", "descriptionUpgraded": ""}, "Blue-Claw": {"name": "Claw", "type": "Attack", "rarity": "Common", "colour": "Blue", "cost": "0", "description": "Deal 3 (5) damage. Increase the damage of ALL Claw cards by 2 this combat.", "descriptionUpgraded": ""}, "Blue-Cold Snap": {"name": "Cold Snap", "type": "Attack", "rarity": "Common", "colour": "Blue", "cost": "1", "description": "Deal 6 (9) damage. Channel 1 Frost.", "descriptionUpgraded": ""}, "Blue-Compile Driver": {"name": "Compile Driver", "type": "Attack", "rarity": "Common", "colour": "Blue", "cost": "1", "description": "Deal 7 (10) damage. Draw 1 card for each unique Orb you have.", "descriptionUpgraded": ""}, "Blue-Coolheaded": {"name": "Coolheaded", "type": "Skill", "rarity": "Common", "colour": "Blue", "cost": "1", "description": "Channel 1 Frost. Draw 1 card.", "descriptionUpgraded": "Channel 1 Frost. Draw 2 cards."}, "Blue-Go for the Eyes": {"name": "Go for the Eyes", "type": "Attack", "rarity": "Common", "colour": "Blue", "cost": "0", "description": "Deal 3 (4) damage. If the enemy intends to attack, apply 1 (2) Weak.", "descriptionUpgraded": ""}, "Blue-Hologram": {"name": "Hologram", "type": "Skill", "rarity": "Common", "colour": "Blue", "cost": "1", "description": "Gain 3 Block. Put a card from your discard pile into your hand. Exhaust.", "descriptionUpgraded": "Gain 5 Block. Put a card from your discard pile into your hand."}, "Blue-Leap": {"name": "Leap", "type": "Skill", "rarity": "Common", "colour": "Blue", "cost": "1", "description": "Gain 9 (12) Block.", "descriptionUpgraded": ""}, "Blue-Rebound": {"name": "Rebound", "type": "Attack", "rarity": "Common", "colour": "Blue", "cost": "1", "description": "Deal 9 (12) damage. Put the next card you play this turn on top of your draw pile.", "descriptionUpgraded": ""}, "Blue-Recursion": {"name": "Recursion", "type": "Skill", "rarity": "Common", "colour": "Blue", "cost": "1 (0)", "description": "Evoke your next Orb. Channel the Orb that was just Evoked.", "descriptionUpgraded": ""}, "Blue-Stack": {"name": "Stack", "type": "Skill", "rarity": "Common", "colour": "Blue", "cost": "1", "description": "Gain Block equal to the number of cards in your discard pile.", "descriptionUpgraded": "Gain Block equal to the number of cards in your discard pile +3."}, "Blue-Steam Barrier": {"name": "Steam Barrier", "type": "Skill", "rarity": "Common", "colour": "Blue", "cost": "0", "description": "Gain 6 (8) Block. Decrease this card's Block by 1 this combat.", "descriptionUpgraded": ""}, "Blue-Streamline": {"name": "Streamline", "type": "Attack", "rarity": "Common", "colour": "Blue", "cost": "2", "description": "Deal 15 (20) damage. Reduce this card's cost by 1 this combat.", "descriptionUpgraded": ""}, "Blue-Sweeping Beam": {"name": "Sweeping Beam", "type": "Attack", "rarity": "Common", "colour": "Blue", "cost": "1", "description": "Deal 6 (9) damage to ALL enemies. Draw 1 card.", "descriptionUpgraded": ""}, "Blue-TURBO": {"name": "TURBO", "type": "Skill", "rarity": "Common", "colour": "Blue", "cost": "0", "description": "Gain [B] [B]. Add a Void into your discard pile.", "descriptionUpgraded": "Gain [B] [B] [B]. Add a Void into your discard pile."}, "Blue-Aggregate": {"name": "Aggregate", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Gain [B] for every 4 (3) cards in your draw pile.", "descriptionUpgraded": ""}, "Blue-Auto-Shields": {"name": "Auto-Shields", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "If you have no Block, gain 11 (15) Block.", "descriptionUpgraded": ""}, "Blue-Blizzard": {"name": "Blizzard", "type": "Attack", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Deal damage equal to 2 (3) times the number of Frost Channeled this combat to ALL enemies.", "descriptionUpgraded": ""}, "Blue-Boot Sequence": {"name": "Boot Sequence", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "0", "description": "Innate. Gain 10 (13) Block. Exhaust.", "descriptionUpgraded": ""}, "Blue-Bullseye": {"name": "Bullseye", "type": "Attack", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Deal 8 (11) damage. Apply 2 (3) Lock-On.", "descriptionUpgraded": ""}, "Blue-Capacitor": {"name": "Capacitor", "type": "Power", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Gain 2 (3) Orb slots.", "descriptionUpgraded": ""}, "Blue-Chaos": {"name": "Chaos", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Channel 1 random Orb.", "descriptionUpgraded": "Channel 2 random Orbs."}, "Blue-Chill": {"name": "Chill", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "0", "description": "Channel 1 Frost for each enemy in combat. Exhaust.", "descriptionUpgraded": "Innate. Channel 1 Frost for each enemy in combat. Exhaust."}, "Blue-Consume": {"name": "Consume", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "2", "description": "Gain 2 (3) Focus. Lose 1 Orb slot.", "descriptionUpgraded": ""}, "Blue-Darkness": {"name": "Darkness", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Channel 1 Dark.", "descriptionUpgraded": "Channel 1 Dark. Trigger the passive ability of all Dark orbs."}, "Blue-Defragment": {"name": "Defragment", "type": "Power", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Gain 1 (2) Focus.", "descriptionUpgraded": ""}, "Blue-Doom and Gloom": {"name": "Doom and Gloom", "type": "Attack", "rarity": "Uncommon", "colour": "Blue", "cost": "2", "description": "Deal 10 (14) damage to ALL enemies. Channel 1 Dark.", "descriptionUpgraded": ""}, "Blue-Double Energy": {"name": "Double Energy", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "1 (0)", "description": "Double your Energy. Exhaust.", "descriptionUpgraded": ""}, "Blue-Equilibrium": {"name": "Equilibrium", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "2", "description": "Gain 13 (16) Block. Retain your hand this turn.", "descriptionUpgraded": ""}, "Blue-FTL": {"name": "FTL", "type": "Attack", "rarity": "Uncommon", "colour": "Blue", "cost": "0", "description": "Deal 5 (6) damage. If you have played less than 3 (4) cards this turn, draw 1 card.", "descriptionUpgraded": ""}, "Blue-Force Field": {"name": "Force Field", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "4", "description": "Costs 1 less [B] for each Power card played this combat. Gain 12 (16) Block.", "descriptionUpgraded": ""}, "Blue-Fusion": {"name": "Fusion", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "2 (1)", "description": "Channel 1 Plasma.", "descriptionUpgraded": ""}, "Blue-Genetic Algorithm": {"name": "Genetic Algorithm", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Gain 1 Block. Permanently increase this card's Block by 2 (3). Exhaust.", "descriptionUpgraded": ""}, "Blue-Glacier": {"name": "Glacier", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "2", "description": "Gain 7 (10) Block. Channel 2 Frost.", "descriptionUpgraded": ""}, "Blue-Heatsinks": {"name": "Heatsinks", "type": "Power", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Whenever you play a Power card, draw 1 card.", "descriptionUpgraded": "Whenever you play a Power card, draw 2 cards."}, "Blue-Hello World": {"name": "Hello World", "type": "Power", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "At the start of your turn, add a random Common card into your hand.", "descriptionUpgraded": "Innate. At the start of your turn, add a random Common card into your hand."}, "Blue-Loop": {"name": "Loop", "type": "Power", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "At the start of your turn, trigger the passive ability of your next Orb.", "descriptionUpgraded": "At the start of your turn, trigger the passive ability of your next Orb 2 times."}, "Blue-Melter": {"name": "Melter", "type": "Attack", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Remove all Block from the enemy. Deal 10 (14) damage.", "descriptionUpgraded": ""}, "Blue-Overclock": {"name": "Overclock", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "0", "description": "Draw 2 (3) cards. Add a Burn into your discard pile.", "descriptionUpgraded": ""}, "Blue-Recycle": {"name": "Recycle", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "1 (0)", "description": "Exhaust a card. Gain [B] equal to its cost.", "descriptionUpgraded": ""}, "Blue-Reinforced Body": {"name": "Reinforced Body", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "X", "description": "Gain 7 (9) Block X times.", "descriptionUpgraded": ""}, "Blue-Reprogram": {"name": "Reprogram", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Lose 1 (2) Focus. Gain 1 (2) Strength. Gain 1 (2) Dexterity.", "descriptionUpgraded": ""}, "Blue-Rip and Tear": {"name": "Rip and Tear", "type": "Attack", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Deal 7 (9) damage to a random enemy twice.", "descriptionUpgraded": ""}, "Blue-Scrape": {"name": "Scrape", "type": "Attack", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Deal 7 (10) damage. Draw 4 (5) cards. Discard all cards drawn this way that do not cost 0.", "descriptionUpgraded": ""}, "Blue-Self Repair": {"name": "Self Repair", "type": "Power", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "At the end of combat, heal 7 (10) HP.", "descriptionUpgraded": ""}, "Blue-Skim": {"name": "Skim", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Draw 3 (4) cards.", "descriptionUpgraded": ""}, "Blue-Static Discharge": {"name": "Static Discharge", "type": "Power", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Whenever you receive unblocked attack damage, Channel 1 (2) Lightning.", "descriptionUpgraded": ""}, "Blue-Storm": {"name": "Storm", "type": "Power", "rarity": "Uncommon", "colour": "Blue", "cost": "1", "description": "Whenever you play a Power card, Channel 1 Lightning.", "descriptionUpgraded": "Innate. Whenever you play a Power card, Channel 1 Lightning."}, "Blue-Sunder": {"name": "Sunder", "type": "Attack", "rarity": "Uncommon", "colour": "Blue", "cost": "3", "description": "Deal 24 (32) damage. If this kills an enemy, gain [B] [B] [B].", "descriptionUpgraded": ""}, "Blue-Tempest": {"name": "Tempest", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "X", "description": "Channel X Lightning. Exhaust.", "descriptionUpgraded": "Channel X+1 Lightning. Exhaust."}, "Blue-White Noise": {"name": "White Noise", "type": "Skill", "rarity": "Uncommon", "colour": "Blue", "cost": "1 (0)", "description": "Add a random Power card into your hand. It costs 0 this turn. Exhaust.", "descriptionUpgraded": ""}, "Blue-All for One": {"name": "All for One", "type": "Attack", "rarity": "Rare", "colour": "Blue", "cost": "2", "description": "Deal 10 (14) damage. Put all cost 0 cards from your discard pile into your hand.", "descriptionUpgraded": ""}, "Blue-Amplify": {"name": "Amplify", "type": "Skill", "rarity": "Rare", "colour": "Blue", "cost": "1", "description": "This turn, your next Power card is played twice.", "descriptionUpgraded": "This turn, your next 2 Power cards are played twice."}, "Blue-Biased Cognition": {"name": "Biased Cognition", "type": "Power", "rarity": "Rare", "colour": "Blue", "cost": "1", "description": "Gain 4 (5) Focus. At the start of your turn, lose 1 Focus.", "descriptionUpgraded": ""}, "Blue-Buffer": {"name": "Buffer", "type": "Power", "rarity": "Rare", "colour": "Blue", "cost": "2", "description": "Prevent the next time you would lose HP.", "descriptionUpgraded": "Prevent the next 2 times you would lose HP."}, "Blue-Core Surge": {"name": "Core Surge", "type": "Attack", "rarity": "Rare", "colour": "Blue", "cost": "1", "description": "Deal 11 (15) damage. Gain 1 Artifact. Exhaust.", "descriptionUpgraded": ""}, "Blue-Creative AI": {"name": "Creative AI", "type": "Power", "rarity": "Rare", "colour": "Blue", "cost": "3 (2)", "description": "At the start of your turn, add a random Power card into your hand.", "descriptionUpgraded": ""}, "Blue-Echo Form": {"name": "Echo Form", "type": "Power", "rarity": "Rare", "colour": "Blue", "cost": "3", "description": "Ethereal. The first card you play each turn is played twice.", "descriptionUpgraded": "The first card you play each turn is played twice."}, "Blue-Electrodynamics": {"name": "Electrodynamics", "type": "Power", "rarity": "Rare", "colour": "Blue", "cost": "2", "description": "Lightning now hits ALL enemies. Channel 2 (3) Lightning.", "descriptionUpgraded": ""}, "Blue-Fission": {"name": "Fission", "type": "Skill", "rarity": "Rare", "colour": "Blue", "cost": "0", "description": "Remove all your Orbs. Gain [B] and draw 1 card for each Orb removed. Exhaust.", "descriptionUpgraded": "Evoke all your Orbs. Gain [B] and draw 1 card for each Orb Evoked. Exhaust."}, "Blue-Hyperbeam": {"name": "Hyperbeam", "type": "Attack", "rarity": "Rare", "colour": "Blue", "cost": "2", "description": "Deal 26 (34) damage to ALL enemies. Lose 3 Focus.", "descriptionUpgraded": ""}, "Blue-Machine Learning": {"name": "Machine Learning", "type": "Power", "rarity": "Rare", "colour": "Blue", "cost": "1", "description": "At the start of your turn, draw 1 additional card.", "descriptionUpgraded": "Innate. At the start of your turn, draw 1 additional card."}, "Blue-Meteor Strike": {"name": "Meteor Strike", "type": "Attack", "rarity": "Rare", "colour": "Blue", "cost": "5", "description": "Deal 24 (30) damage. Channel 3 Plasma.", "descriptionUpgraded": ""}, "Blue-Multi-Cast": {"name": "Multi-Cast", "type": "Skill", "rarity": "Rare", "colour": "Blue", "cost": "X", "description": "Evoke your next Orb X times.", "descriptionUpgraded": "Evoke your next Orb X+1 times."}, "Blue-Rainbow": {"name": "Rainbow", "type": "Skill", "rarity": "Rare", "colour": "Blue", "cost": "2", "description": "Channel 1 Lightning. Channel 1 Frost. Channel 1 Dark. Exhaust.", "descriptionUpgraded": "Channel 1 Lightning. Channel 1 Frost. Channel 1 Dark."}, "Blue-Reboot": {"name": "Reboot", "type": "Skill", "rarity": "Rare", "colour": "Blue", "cost": "0", "description": "Shuffle ALL your cards into your draw pile. Draw 4 (6) cards. Exhaust.", "descriptionUpgraded": ""}, "Blue-Seek": {"name": "Seek", "type": "Skill", "rarity": "Rare", "colour": "Blue", "cost": "0", "description": "Put 1 card from your draw pile into your hand. Exhaust.", "descriptionUpgraded": "Put 2 cards from your draw pile into your hand. Exhaust."}, "Blue-Thunder Strike": {"name": "Thunder Strike", "type": "Attack", "rarity": "Rare", "colour": "Blue", "cost": "3", "description": "Deal 7 (9) damage to a random enemy for each Lightning Channeled this combat.", "descriptionUpgraded": ""}, "Purple-Defend": {"name": "Defend", "type": "Skill", "rarity": "Basic", "colour": "Purple", "cost": "1", "description": "Gain 5 (8) Block.", "descriptionUpgraded": ""}, "Purple-Eruption": {"name": "Eruption", "type": "Attack", "rarity": "Basic", "colour": "Purple", "cost": "2 (1)", "description": "Deal 9 damage. Enter Wrath.", "descriptionUpgraded": ""}, "Purple-Strike": {"name": "Strike", "type": "Attack", "rarity": "Basic", "colour": "Purple", "cost": "1", "description": "Deal 6 (9) damage.", "descriptionUpgraded": ""}, "Purple-Vigilance": {"name": "Vigilance", "type": "Skill", "rarity": "Basic", "colour": "Purple", "cost": "2", "description": "Gain 8 (12) Block. Enter Calm.", "descriptionUpgraded": ""}, "Purple-Bowling Bash": {"name": "Bowling Bash", "type": "Attack", "rarity": "Common", "colour": "Purple", "cost": "1", "description": "Deal 7 (10) damage for each enemy in combat.", "descriptionUpgraded": ""}, "Purple-Consecrate": {"name": "Consecrate", "type": "Attack", "rarity": "Common", "colour": "Purple", "cost": "0", "description": "Deal 5 (8) damage to ALL enemies.", "descriptionUpgraded": ""}, "Purple-Crescendo": {"name": "Crescendo", "type": "Skill", "rarity": "Common", "colour": "Purple", "cost": "1 (0)", "description": "Retain. Enter Wrath. Exhaust.", "descriptionUpgraded": ""}, "Purple-Crush Joints": {"name": "Crush Joints", "type": "Attack", "rarity": "Common", "colour": "Purple", "cost": "1", "description": "Deal 8 (10) damage. If the last card played this combat was a Skill, apply 1 (2) Vulnerable.", "descriptionUpgraded": ""}, "Purple-Cut Through Fate": {"name": "Cut Through Fate", "type": "Attack", "rarity": "Common", "colour": "Purple", "cost": "1", "description": "Deal 7 (9) damage. Scry 2 (3). Draw 1 card.", "descriptionUpgraded": ""}, "Purple-Empty Body": {"name": "Empty Body", "type": "Skill", "rarity": "Common", "colour": "Purple", "cost": "1", "description": "Gain 7 (10) Block. Exit your Stance.", "descriptionUpgraded": ""}, "Purple-Empty Fist": {"name": "Empty Fist", "type": "Attack", "rarity": "Common", "colour": "Purple", "cost": "1", "description": "Deal 9 (14) damage. Exit your Stance.", "descriptionUpgraded": ""}, "Purple-Evaluate": {"name": "Evaluate", "type": "Skill", "rarity": "Common", "colour": "Purple", "cost": "1", "description": "Gain 6 (10) Block. Shuffle an Insight into your draw pile.", "descriptionUpgraded": ""}, "Purple-Flurry of Blows": {"name": "Flurry of Blows", "type": "Attack", "rarity": "Common", "colour": "Purple", "cost": "0", "description": "Deal 4 (6) damage. Whenever you change Stances, return this from the discard pile to your hand.", "descriptionUpgraded": ""}, "Purple-Flying Sleeves": {"name": "Flying Sleeves", "type": "Attack", "rarity": "Common", "colour": "Purple", "cost": "1", "description": "Retain. Deal 4 (6) damage twice.", "descriptionUpgraded": ""}, "Purple-Follow-Up": {"name": "Follow-Up", "type": "Attack", "rarity": "Common", "colour": "Purple", "cost": "1", "description": "Deal 7 (11) damage. If the last card played this combat was an Attack, gain [W].", "descriptionUpgraded": ""}, "Purple-Halt": {"name": "Halt", "type": "Skill", "rarity": "Common", "colour": "Purple", "cost": "0", "description": "Gain 3 (4) Block. If you are in Wrath, gain 9 (14) additional Block.", "descriptionUpgraded": ""}, "Purple-Just Lucky": {"name": "Just Lucky", "type": "Attack", "rarity": "Common", "colour": "Purple", "cost": "0", "description": "Scry 1 (2). Gain 2 (3) Block. Deal 3 (4) damage.", "descriptionUpgraded": ""}, "Purple-Pressure Points": {"name": "Pressure Points", "type": "Skill", "rarity": "Common", "colour": "Purple", "cost": "1", "description": "Apply 8 (11) Mark. ALL enemies lose HP equal to their Mark.", "descriptionUpgraded": ""}, "Purple-Prostrate": {"name": "Prostrate", "type": "Skill", "rarity": "Common", "colour": "Purple", "cost": "0", "description": "Gain 2 (3) Mantra. Gain 4 Block.", "descriptionUpgraded": ""}, "Purple-Protect": {"name": "Protect", "type": "Skill", "rarity": "Common", "colour": "Purple", "cost": "2", "description": "Retain. Gain 12 (16) Block.", "descriptionUpgraded": ""}, "Purple-Sash Whip": {"name": "Sash Whip", "type": "Attack", "rarity": "Common", "colour": "Purple", "cost": "1", "description": "Deal 8 (10) damage. If the last card played this combat was an Attack, apply 1 (2) Weak.", "descriptionUpgraded": ""}, "Purple-Third Eye": {"name": "Third Eye", "type": "Skill", "rarity": "Common", "colour": "Purple", "cost": "1", "description": "Gain 7 (9) Block. Scry 3 (5).", "descriptionUpgraded": ""}, "Purple-Tranquility": {"name": "Tranquility", "type": "Skill", "rarity": "Common", "colour": "Purple", "cost": "1 (0)", "description": "Retain. Enter Calm. Exhaust.", "descriptionUpgraded": ""}, "Purple-Battle Hymn": {"name": "Battle Hymn", "type": "Power", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "At the start of each turn, add a Smite into your hand.", "descriptionUpgraded": "Innate. At the start of each turn, add a Smite into your hand."}, "Purple-Carve Reality": {"name": "Carve Reality", "type": "Attack", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Deal 6 (10) damage. Add a Smite into your hand.", "descriptionUpgraded": ""}, "Purple-Collect": {"name": "Collect", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "X", "description": "Put a Miracle+ into your hand at the start of your next X turns. Exhaust.", "descriptionUpgraded": "Put a Miracle+ into your hand at the start of your next X+1 turns. Exhaust."}, "Purple-Conclude": {"name": "Conclude", "type": "Attack", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Deal 12 (16) damage to ALL enemies. End your turn.", "descriptionUpgraded": ""}, "Purple-Deceive Reality": {"name": "Deceive Reality", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Gain 4 (7) Block. Add a Safety into your hand.", "descriptionUpgraded": ""}, "Purple-Empty Mind": {"name": "Empty Mind", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Draw 2 (3) cards. Exit your Stance.", "descriptionUpgraded": ""}, "Purple-Fasting": {"name": "Fasting", "type": "Power", "rarity": "Uncommon", "colour": "Purple", "cost": "2", "description": "Gain 3 (4) Strength. Gain 3 (4) Dexterity. Gain 1 less [W] at the start of each turn.", "descriptionUpgraded": ""}, "Purple-Fear No Evil": {"name": "Fear No Evil", "type": "Attack", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Deal 8 (11) damage. If the enemy intends to Attack, enter Calm.", "descriptionUpgraded": ""}, "Purple-Foreign Influence": {"name": "Foreign Influence", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "0", "description": "Choose 1 of 3 Attacks of any color to add into your hand. Exhaust.", "descriptionUpgraded": "Choose 1 of 3 Attacks of any color to add into your hand. It costs 0 this turn. Exhaust."}, "Purple-Foresight": {"name": "Foresight", "type": "Power", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "At the start of your turn, Scry 3 (4).", "descriptionUpgraded": ""}, "Purple-Indignation": {"name": "Indignation", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "If you are in Wrath, apply 3 (5) Vulnerable to ALL enemies, otherwise enter Wrath.", "descriptionUpgraded": ""}, "Purple-Inner Peace": {"name": "Inner Peace", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "If you are in Calm, draw 3 (4) cards, otherwise enter Calm.", "descriptionUpgraded": ""}, "Purple-Like Water": {"name": "Like Water", "type": "Power", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "At the end of your turn, if you are in Calm, gain 5 (7) Block.", "descriptionUpgraded": ""}, "Purple-Meditate": {"name": "Meditate", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Put a card from your discard pile into your hand and Retain it. Enter Calm. End your turn.", "descriptionUpgraded": "Put 2 cards from your discard pile into your hand and Retain them. Enter Calm. End your turn."}, "Purple-Mental Fortress": {"name": "Mental Fortress", "type": "Power", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Whenever you change Stances, gain 4 (6) Block.", "descriptionUpgraded": ""}, "Purple-Nirvana": {"name": "Nirvana", "type": "Power", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Whenever you Scry, gain 3 (4) Block.", "descriptionUpgraded": ""}, "Purple-Perseverance": {"name": "Perseverance", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Retain. Gain 5 (7) Block. When Retained, increase its Block by 2 (3) this combat.", "descriptionUpgraded": ""}, "Purple-Pray": {"name": "Pray", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Gain 3 (4) Mantra. Shuffle an Insight into your draw pile.", "descriptionUpgraded": ""}, "Purple-Reach Heaven": {"name": "Reach Heaven", "type": "Attack", "rarity": "Uncommon", "colour": "Purple", "cost": "2", "description": "Deal 10 (15) damage. Shuffle a Through Violence into your draw pile.", "descriptionUpgraded": ""}, "Purple-Rushdown": {"name": "Rushdown", "type": "Power", "rarity": "Uncommon", "colour": "Purple", "cost": "1 (0)", "description": "Whenever you enter Wrath, draw 2 cards.", "descriptionUpgraded": ""}, "Purple-Sanctity": {"name": "Sanctity", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Gain 6 (9) Block. If the last card played this combat was a Skill, draw 2 cards.", "descriptionUpgraded": ""}, "Purple-Sands of Time": {"name": "Sands of Time", "type": "Attack", "rarity": "Uncommon", "colour": "Purple", "cost": "4", "description": "Retain. Deal 20 (26) damage. When Retained, lower its cost by 1 this combat.", "descriptionUpgraded": ""}, "Purple-Signature Move": {"name": "Signature Move", "type": "Attack", "rarity": "Uncommon", "colour": "Purple", "cost": "2", "description": "Can only be played if this is the only Attack in your hand. Deal 30 (40) damage.", "descriptionUpgraded": ""}, "Purple-Simmering Fury": {"name": "Simmering Fury", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "At the start of your next turn, enter Wrath and draw 2 (3) cards.", "descriptionUpgraded": ""}, "Purple-Study": {"name": "Study", "type": "Power", "rarity": "Uncommon", "colour": "Purple", "cost": "2 (1)", "description": "At the end of your turn, shuffle an Insight into your draw pile.", "descriptionUpgraded": ""}, "Purple-Swivel": {"name": "Swivel", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "2", "description": "Gain 8 (11) Block. The next Attack you play costs 0.", "descriptionUpgraded": ""}, "Purple-Talk to the Hand": {"name": "Talk to the Hand", "type": "Attack", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Deal 5 (7) damage. Whenever you attack this enemy, gain 2 (3) Block. Exhaust.", "descriptionUpgraded": ""}, "Purple-Tantrum": {"name": "Tantrum", "type": "Attack", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Deal 3 damage 3 (4) times. Enter Wrath. Shuffle this card into your draw pile.", "descriptionUpgraded": ""}, "Purple-Wallop": {"name": "Wallop", "type": "Attack", "rarity": "Uncommon", "colour": "Purple", "cost": "2", "description": "Deal 9 (12) damage. Gain Block equal to unblocked damage dealt.", "descriptionUpgraded": ""}, "Purple-Wave of the Hand": {"name": "Wave of the Hand", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Whenever you gain Block this turn, apply 1 (2) Weak to ALL enemies.", "descriptionUpgraded": ""}, "Purple-Weave": {"name": "Weave", "type": "Attack", "rarity": "Uncommon", "colour": "Purple", "cost": "0", "description": "Deal 4 (6) damage. Whenever you Scry, return this from the discard pile to your Hand.", "descriptionUpgraded": ""}, "Purple-Wheel Kick": {"name": "Wheel Kick", "type": "Attack", "rarity": "Uncommon", "colour": "Purple", "cost": "2", "description": "Deal 15 (20) damage. Draw 2 cards.", "descriptionUpgraded": ""}, "Purple-Windmill Strike": {"name": "Windmill Strike", "type": "Attack", "rarity": "Uncommon", "colour": "Purple", "cost": "2", "description": "Retain. Deal 7 (10) damage. When Retained, increase its damage by 4 (5) this combat.", "descriptionUpgraded": ""}, "Purple-Worship": {"name": "Worship", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "2", "description": "Gain 5 Mantra.", "descriptionUpgraded": "Retain. Gain 5 Mantra."}, "Purple-Wreath of Flame": {"name": "Wreath of Flame", "type": "Skill", "rarity": "Uncommon", "colour": "Purple", "cost": "1", "description": "Your next Attack deals 5 (8) additional damage.", "descriptionUpgraded": ""}, "Purple-Alpha": {"name": "Alpha", "type": "Skill", "rarity": "Rare", "colour": "Purple", "cost": "1", "description": "Shuffle a Beta into your draw pile. Exhaust.", "descriptionUpgraded": "Innate. Shuffle a Beta into your draw pile. Exhaust."}, "Purple-Blasphemy": {"name": "Blasphemy", "type": "Skill", "rarity": "Rare", "colour": "Purple", "cost": "1", "description": "Enter Divinity. Die next turn. Exhaust.", "descriptionUpgraded": "Retain. Enter Divinity. Die next turn. Exhaust."}, "Purple-Brilliance": {"name": "Brilliance", "type": "Attack", "rarity": "Rare", "colour": "Purple", "cost": "1", "description": "Deal 12 (16) damage. Deals additional damage equal to Mantra gained this combat.", "descriptionUpgraded": ""}, "Purple-Conjure Blade": {"name": "Conjure Blade", "type": "Skill", "rarity": "Rare", "colour": "Purple", "cost": "X", "description": "Shuffle an Expunger into your draw pile. Exhaust.", "descriptionUpgraded": "Shuffle an Expunger with X+1 into your draw pile. Exhaust."}, "Purple-Deus Ex Machina": {"name": "Deus Ex Machina", "type": "Skill", "rarity": "Rare", "colour": "Purple", "cost": "Unplayable", "description": "Unplayable. When you draw this card, add 2 (3) Miracles to your hand and Exhaust.", "descriptionUpgraded": ""}, "Purple-Deva Form": {"name": "Deva Form", "type": "Power", "rarity": "Rare", "colour": "Purple", "cost": "3", "description": "Ethereal. At the start of your turn, gain [W] and increase this gain by 1.", "descriptionUpgraded": "At the start of your turn, gain [W] and increase this gain by 1."}, "Purple-Devotion": {"name": "Devotion", "type": "Power", "rarity": "Rare", "colour": "Purple", "cost": "1", "description": "At the start of your turn, gain 2 (3) Mantra.", "descriptionUpgraded": ""}, "Purple-Establishment": {"name": "Establishment", "type": "Power", "rarity": "Rare", "colour": "Purple", "cost": "1", "description": "Whenever a card is Retained, reduce its cost by 1 this combat.", "descriptionUpgraded": "Innate. Whenever a card is Retained, reduce its cost by 1 this combat."}, "Purple-Judgment": {"name": "Judgment", "type": "Skill", "rarity": "Rare", "colour": "Purple", "cost": "1", "description": "If the enemy has 30 (40) or less HP, set their HP to 0.", "descriptionUpgraded": ""}, "Purple-Lesson Learned": {"name": "Lesson Learned", "type": "Attack", "rarity": "Rare", "colour": "Purple", "cost": "2", "description": "Deal 10 (13) damage. If Fatal, Upgrade a random card in your deck. Exhaust.", "descriptionUpgraded": ""}, "Purple-Master Reality": {"name": "Master Reality", "type": "Power", "rarity": "Rare", "colour": "Purple", "cost": "1 (0)", "description": "Whenever a card is created during combat, Upgrade it.", "descriptionUpgraded": ""}, "Purple-Omniscience": {"name": "Omniscience", "type": "Skill", "rarity": "Rare", "colour": "Purple", "cost": "4 (3)", "description": "Choose a card in your draw pile. Play the chosen card twice and exhaust it. Exhaust.", "descriptionUpgraded": ""}, "Purple-Ragnarok": {"name": "Ragnarok", "type": "Attack", "rarity": "Rare", "colour": "Purple", "cost": "3", "description": "Deal 5 (6) damage to a random enemy 5 (6) times.", "descriptionUpgraded": ""}, "Purple-Scrawl": {"name": "Scrawl", "type": "Skill", "rarity": "Rare", "colour": "Purple", "cost": "1 (0)", "description": "Draw cards until your hand is full. Exhaust.", "descriptionUpgraded": ""}, "Purple-Spirit Shield": {"name": "Spirit Shield", "type": "Skill", "rarity": "Rare", "colour": "Purple", "cost": "2", "description": "Gain 3 (4) Block for each card in your hand.", "descriptionUpgraded": ""}, "Purple-Vault": {"name": "Vault", "type": "Skill", "rarity": "Rare", "colour": "Purple", "cost": "3 (2)", "description": "Take an extra turn after this one. End your turn. Exhaust.", "descriptionUpgraded": ""}, "Purple-Wish": {"name": "Wish", "type": "Skill", "rarity": "Rare", "colour": "Purple", "cost": "3", "description": "Choose one: Gain 6 (8) Plated Armor, 3 (4) Strength, or 25 (30) Gold. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Bandage Up": {"name": "Bandage Up", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Heal 4 (6) HP. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Blind": {"name": "Blind", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Apply 2 Weak.", "descriptionUpgraded": "Apply 2 Weak to ALL enemies."}, "Colorless-Dark Shackles": {"name": "Dark Shackles", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Enemy loses 9 (15) Strength this turn. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Deep Breath": {"name": "Deep Breath", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Shuffle your discard pile into your draw pile. Draw 1 card.", "descriptionUpgraded": "Shuffle your discard pile into your draw pile. Draw 2 cards."}, "Colorless-Discovery": {"name": "Discovery", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "1", "description": "Choose 1 of 3 random cards to add into your hand. It costs 0 this turn. Exhaust.", "descriptionUpgraded": "Choose 1 of 3 random cards to add into your hand. It costs 0 this turn."}, "Colorless-Dramatic Entrance": {"name": "Dramatic Entrance", "type": "Attack", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Innate. Deal 8 (12) damage to ALL enemies. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Enlightenment": {"name": "Enlightenment", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Reduce the cost of all cards in your hand to 1 this turn.", "descriptionUpgraded": "Reduce the cost of all cards in your hand to 1 this combat."}, "Colorless-Finesse": {"name": "Finesse", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Gain 2 (4) Block. Draw 1 card.", "descriptionUpgraded": ""}, "Colorless-Flash of Steel": {"name": "Flash of Steel", "type": "Attack", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Deal 3 (6) damage. Draw 1 card.", "descriptionUpgraded": ""}, "Colorless-Forethought": {"name": "Forethought", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Put a card from your hand to the bottom of your draw pile. It costs 0 until played.", "descriptionUpgraded": "Put any number of cards from your hand to the bottom of your draw pile. They cost 0 until played."}, "Colorless-Good Instincts": {"name": "Good Instincts", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Gain 6 (9) Block.", "descriptionUpgraded": ""}, "Colorless-Impatience": {"name": "Impatience", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "If you have no Attacks in your hand, draw 2 (3) cards.", "descriptionUpgraded": ""}, "Colorless-Jack of All Trades": {"name": "Jack of All Trades", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Add 1 random Colorless card into your hand. Exhaust.", "descriptionUpgraded": "Add 2 random Colorless cards into your hand. Exhaust."}, "Colorless-Madness": {"name": "Madness", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "1 (0)", "description": "Reduce the cost of a random card in your hand to 0 this combat. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Mind Blast": {"name": "Mind Blast", "type": "Attack", "rarity": "Uncommon", "colour": "Colorless", "cost": "2 (1)", "description": "Innate. Deal damage equal to the number of cards in your draw pile.", "descriptionUpgraded": ""}, "Colorless-Panacea": {"name": "Panacea", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Gain 1 (2) Artifact. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Panic Button": {"name": "Panic Button", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Gain 30 (40) Block. You cannot gain Block from cards for 2 turns. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Purity": {"name": "Purity", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Exhaust up to 3 (5) cards in your hand. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Swift Strike": {"name": "Swift Strike", "type": "Attack", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Deal 7 (10) damage.", "descriptionUpgraded": ""}, "Colorless-Trip": {"name": "Trip", "type": "Skill", "rarity": "Uncommon", "colour": "Colorless", "cost": "0", "description": "Apply 2 Vulnerable.", "descriptionUpgraded": "Apply 2 Vulnerable to ALL enemies."}, "Colorless-Apotheosis": {"name": "Apotheosis", "type": "Skill", "rarity": "Rare", "colour": "Colorless", "cost": "2 (1)", "description": "Upgrade ALL your cards for the rest of combat. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Chrysalis": {"name": "Chrysalis", "type": "Skill", "rarity": "Rare", "colour": "Colorless", "cost": "2", "description": "Shuffle 3 (5) random Skills into your draw pile. They cost 0 this combat. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Hand of Greed": {"name": "Hand of Greed", "type": "Attack", "rarity": "Rare", "colour": "Colorless", "cost": "2", "description": "Deal 20 (25) damage. If Fatal, gain 20 (25) Gold.", "descriptionUpgraded": ""}, "Colorless-Magnetism": {"name": "Magnetism", "type": "Power", "rarity": "Rare", "colour": "Colorless", "cost": "2 (1)", "description": "At the start of your turn, add a random Colorless card into your hand.", "descriptionUpgraded": ""}, "Colorless-Master of Strategy": {"name": "Master of Strategy", "type": "Skill", "rarity": "Rare", "colour": "Colorless", "cost": "0", "description": "Draw 3 (4) cards. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Mayhem": {"name": "Mayhem", "type": "Power", "rarity": "Rare", "colour": "Colorless", "cost": "2 (1)", "description": "At the start of your turn, play the top card of your draw pile.", "descriptionUpgraded": ""}, "Colorless-Metamorphosis": {"name": "Metamorphosis", "type": "Skill", "rarity": "Rare", "colour": "Colorless", "cost": "2", "description": "Shuffle 3 (5) random Attacks into your draw pile. They cost 0 this combat. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Panache": {"name": "Panache", "type": "Power", "rarity": "Rare", "colour": "Colorless", "cost": "0", "description": "Every time you play 5 cards in a single turn, deal 10 (14) damage to ALL enemies.", "descriptionUpgraded": ""}, "Colorless-Sadistic Nature": {"name": "Sadistic Nature", "type": "Power", "rarity": "Rare", "colour": "Colorless", "cost": "0", "description": "Whenever you apply a debuff to an enemy, they take 5 (7) damage.", "descriptionUpgraded": ""}, "Colorless-Secret Technique": {"name": "Secret Technique", "type": "Skill", "rarity": "Rare", "colour": "Colorless", "cost": "0", "description": "Put a Skill from your draw pile into your hand. Exhaust.", "descriptionUpgraded": "Put a Skill from your draw pile into your hand."}, "Colorless-Secret Weapon": {"name": "Secret Weapon", "type": "Skill", "rarity": "Rare", "colour": "Colorless", "cost": "0", "description": "Put an Attack from your draw pile into your hand. Exhaust.", "descriptionUpgraded": "Put an Attack from your draw pile into your hand."}, "Colorless-The Bomb": {"name": "The Bomb", "type": "Skill", "rarity": "Rare", "colour": "Colorless", "cost": "2", "description": "At the end of 3 turns, deal 40 (50) damage to ALL enemies.", "descriptionUpgraded": ""}, "Colorless-Thinking Ahead": {"name": "Thinking Ahead", "type": "Skill", "rarity": "Rare", "colour": "Colorless", "cost": "0", "description": "Draw 2 cards. Put a card from your hand on top of your draw pile. Exhaust.", "descriptionUpgraded": "Draw 2 cards. Put a card from your hand on top of your draw pile."}, "Colorless-Transmutation": {"name": "Transmutation", "type": "Skill", "rarity": "Rare", "colour": "Colorless", "cost": "X", "description": "Add X random Colorless cards into your hand. They cost 0 this turn. Exhaust.", "descriptionUpgraded": "Add X random Upgraded Colorless cards into your hand. They cost 0 this turn. Exhaust."}, "Colorless-Violence": {"name": "Violence", "type": "Skill", "rarity": "Rare", "colour": "Colorless", "cost": "0", "description": "Put 3 (4) random Attacks from your draw pile into your hand. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Apparition": {"name": "Apparition", "type": "Skill", "rarity": "Special", "colour": "Colorless", "cost": "1", "description": "Ethereal. Gain 1 Intangible. Exhaust.", "descriptionUpgraded": "Gain 1 Intangible. Exhaust."}, "Colorless-Become Almighty": {"name": "Become Almighty", "type": "Power", "rarity": "Special", "colour": "Colorless", "cost": "Unplayable", "description": "Gain 3 (4) Strength.", "descriptionUpgraded": ""}, "Colorless-Beta": {"name": "Beta", "type": "Skill", "rarity": "Special", "colour": "Colorless", "cost": "2 (1)", "description": "Shuffle an Omega into your draw pile. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Bite": {"name": "Bite", "type": "Attack", "rarity": "Special", "colour": "Colorless", "cost": "1", "description": "Deal 7 (8) damage. Heal 2 (3) HP.", "descriptionUpgraded": ""}, "Colorless-Expunger": {"name": "Expunger", "type": "Attack", "rarity": "Special", "colour": "Colorless", "cost": "1", "description": "Deal 9 (15) damage X times.", "descriptionUpgraded": ""}, "Colorless-Fame and Fortune": {"name": "Fame and Fortune", "type": "Skill", "rarity": "Special", "colour": "Colorless", "cost": "Unplayable", "description": "Gain 25 (30) Gold.", "descriptionUpgraded": ""}, "Colorless-Insight": {"name": "Insight", "type": "Skill", "rarity": "Special", "colour": "Colorless", "cost": "0", "description": "Retain. Draw 2 (3) cards. Exhaust.", "descriptionUpgraded": ""}, "Colorless-J.A.X.": {"name": "J.A.X.", "type": "Skill", "rarity": "Special", "colour": "Colorless", "cost": "0", "description": "Lose 3 HP. Gain 2 (3) Strength.", "descriptionUpgraded": ""}, "Colorless-Live Forever": {"name": "Live Forever", "type": "Power", "rarity": "Special", "colour": "Colorless", "cost": "Unplayable", "description": "Gain 6 (8) Plated Armor.", "descriptionUpgraded": ""}, "Colorless-Miracle": {"name": "Miracle", "type": "Skill", "rarity": "Special", "colour": "Colorless", "cost": "0", "description": "Retain. Gain [W]. Exhaust.", "descriptionUpgraded": "Retain. Gain [W] [W]. Exhaust."}, "Colorless-Omega": {"name": "Omega", "type": "Power", "rarity": "Special", "colour": "Colorless", "cost": "3", "description": "At the end of your turn, deal 50 (60) damage to ALL enemies.", "descriptionUpgraded": ""}, "Colorless-Ritual Dagger": {"name": "Ritual Dagger", "type": "Attack", "rarity": "Special", "colour": "Colorless", "cost": "1", "description": "Deal 15 damage. If Fatal, permanently increase this card's damage by 3 (5). Exhaust.", "descriptionUpgraded": ""}, "Colorless-Safety": {"name": "Safety", "type": "Skill", "rarity": "Special", "colour": "Colorless", "cost": "1", "description": "Retain. Gain 12 (16) Block. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Shiv": {"name": "Shiv", "type": "Attack", "rarity": "Special", "colour": "Colorless", "cost": "0", "description": "Deal 4 (6) damage. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Smite": {"name": "Smite", "type": "Attack", "rarity": "Special", "colour": "Colorless", "cost": "1", "description": "Retain. Deal 12 (16) damage. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Through Violence": {"name": "Through Violence", "type": "Attack", "rarity": "Special", "colour": "Colorless", "cost": "0", "description": "Retain. Deal 20 (30) damage. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Clumsy": {"name": "Clumsy", "type": "Curse", "rarity": "Curse", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. Ethereal.", "descriptionUpgraded": ""}, "Colorless-Decay": {"name": "Decay", "type": "Curse", "rarity": "Curse", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. At the end of your turn, take 2 damage.", "descriptionUpgraded": ""}, "Colorless-Doubt": {"name": "Doubt", "type": "Curse", "rarity": "Curse", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. At the end of your turn, gain 1 Weak.", "descriptionUpgraded": ""}, "Colorless-Injury": {"name": "Injury", "type": "Curse", "rarity": "Curse", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable.", "descriptionUpgraded": ""}, "Colorless-Normality": {"name": "Normality", "type": "Curse", "rarity": "Curse", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. While in hand, you cannot play more than 3 cards this turn.", "descriptionUpgraded": ""}, "Colorless-Pain": {"name": "Pain", "type": "Curse", "rarity": "Curse", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. While in hand, lose 1 HP whenever you play another card.", "descriptionUpgraded": ""}, "Colorless-Parasite": {"name": "Parasite", "type": "Curse", "rarity": "Curse", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. If transformed or removed from your deck, lose 3 Max HP.", "descriptionUpgraded": ""}, "Colorless-Regret": {"name": "Regret", "type": "Curse", "rarity": "Curse", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. At the end of your turn, lose HP equal to the number of cards in your hand.", "descriptionUpgraded": ""}, "Colorless-Shame": {"name": "Shame", "type": "Curse", "rarity": "Curse", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. At the end of your turn, gain 1 Frail.", "descriptionUpgraded": ""}, "Colorless-Writhe": {"name": "Writhe", "type": "Curse", "rarity": "Curse", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. Innate.", "descriptionUpgraded": ""}, "Colorless-Ascender's Bane": {"name": "Ascender's Bane", "type": "Curse", "rarity": "Special", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. Ethereal. Cannot be removed from your deck.", "descriptionUpgraded": ""}, "Colorless-Curse of the Bell": {"name": "Curse of the Bell", "type": "Curse", "rarity": "Special", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. Cannot be removed from your deck.", "descriptionUpgraded": ""}, "Colorless-Necronomicurse": {"name": "Necronomicurse", "type": "Curse", "rarity": "Special", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. There is no escape from this Curse.", "descriptionUpgraded": ""}, "Colorless-Pride": {"name": "Pride", "type": "Curse", "rarity": "Special", "colour": "Colorless", "cost": "1", "description": "Innate. At the end of your turn, put a copy of this card on top of your draw pile. Exhaust.", "descriptionUpgraded": ""}, "Colorless-Burn": {"name": "Burn", "type": "Status", "rarity": "Common", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. At the end of your turn, take 2 damage.", "descriptionUpgraded": ""}, "Colorless-Dazed": {"name": "Dazed", "type": "Status", "rarity": "Common", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. Ethereal.", "descriptionUpgraded": ""}, "Colorless-Slimed": {"name": "Slimed", "type": "Status", "rarity": "Common", "colour": "Colorless", "cost": "1", "description": "Exhaust.", "descriptionUpgraded": ""}, "Colorless-Void": {"name": "Void", "type": "Status", "rarity": "Common", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable. Ethereal. Whenever this card is drawn, lose 1 Energy.", "descriptionUpgraded": ""}, "Colorless-Wound": {"name": "Wound", "type": "Status", "rarity": "Common", "colour": "Colorless", "cost": "Unplayable", "description": "Unplayable.", "descriptionUpgraded": ""}}
+{
+    "Red-Bash": {
+        "name": "Bash",
+        "type": "Attack",
+        "rarity": "Basic",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Deal 8 (10) damage. Apply 2 (3) Vulnerable.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Defend": {
+        "name": "Defend",
+        "type": "Skill",
+        "rarity": "Basic",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Gain 5 (8) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Strike": {
+        "name": "Strike",
+        "type": "Attack",
+        "rarity": "Basic",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Deal 6 (9) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Anger": {
+        "name": "Anger",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "0",
+        "description": "Deal 6 (8) damage. Add a copy of this card into your discard pile.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Armaments": {
+        "name": "Armaments",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Gain 5 Block. Upgrade a card in your hand for the rest of combat.",
+        "descriptionUpgraded": "Gain 5 Block. Upgrade all cards in your hand for the rest of combat."
+    },
+    "Red-Body Slam": {
+        "name": "Body Slam",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "1 (0)",
+        "description": "Deal damage equal to your Block.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Clash": {
+        "name": "Clash",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "0",
+        "description": "Can only be played if every card in your hand is an Attack. Deal 14 (18) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Cleave": {
+        "name": "Cleave",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Deal 8 (11) damage to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Clothesline": {
+        "name": "Clothesline",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Deal 12 (14) damage. Apply 2 (3) Weak.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Flex": {
+        "name": "Flex",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "0",
+        "description": "Gain 2 (4) Strength. At the end of this turn, lose 2 (4) Strength.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Havoc": {
+        "name": "Havoc",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "1 (0)",
+        "description": "Play the top card of your draw pile and Exhaust it.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Headbutt": {
+        "name": "Headbutt",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Deal 9 (12) damage. Put a card from your discard pile on top of your draw pile.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Heavy Blade": {
+        "name": "Heavy Blade",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Deal 14 damage. Strength affects this card 3 (5) times.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Iron Wave": {
+        "name": "Iron Wave",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Gain 5 (7) Block. Deal 5 (7) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Perfected Strike": {
+        "name": "Perfected Strike",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Deal 6 damage. Deals 2 (3) additional damage for ALL your cards containing \"Strike\".",
+        "descriptionUpgraded": ""
+    },
+    "Red-Pommel Strike": {
+        "name": "Pommel Strike",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Deal 9 damage. Draw 1 card.",
+        "descriptionUpgraded": "Deal 10 damage. Draw 2 cards."
+    },
+    "Red-Shrug It Off": {
+        "name": "Shrug It Off",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Gain 8 (11) Block. Draw 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Sword Boomerang": {
+        "name": "Sword Boomerang",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Deal 3 damage to a random enemy 3 (4) times.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Thunderclap": {
+        "name": "Thunderclap",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Deal 4 (7) damage and apply 1 Vulnerable to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Red-True Grit": {
+        "name": "True Grit",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Gain 7 Block. Exhaust 1 card at random.",
+        "descriptionUpgraded": "Gain 9 Block. Exhaust 1 card."
+    },
+    "Red-Twin Strike": {
+        "name": "Twin Strike",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Deal 5 (7) damage twice.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Warcry": {
+        "name": "Warcry",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "0",
+        "description": "Draw 1 card. Put a card from your hand onto the top of your draw pile. Exhaust.",
+        "descriptionUpgraded": "Draw 2 cards. Put a card from your hand onto the top of your draw pile. Exhaust."
+    },
+    "Red-Wild Strike": {
+        "name": "Wild Strike",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Deal 12 (17) damage. Shuffle a Wound into your draw pile.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Battle Trance": {
+        "name": "Battle Trance",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "0",
+        "description": "Draw 3 (4) cards. You cannot draw additional cards this turn.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Blood for Blood": {
+        "name": "Blood for Blood",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "4 (3)",
+        "description": "Costs 1 less [R] for each time you lose HP this combat. Deal 18 (22) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Bloodletting": {
+        "name": "Bloodletting",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "0",
+        "description": "Lose 3 HP. Gain [R] [R].",
+        "descriptionUpgraded": "Lose 3 HP. Gain [R] [R] [R]."
+    },
+    "Red-Burning Pact": {
+        "name": "Burning Pact",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Exhaust 1 card. Draw 2 (3) cards.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Carnage": {
+        "name": "Carnage",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Ethereal. Deal 20 (28) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Combust": {
+        "name": "Combust",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "At the end of your turn, lose 1 HP and deal 5 (7) damage to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Dark Embrace": {
+        "name": "Dark Embrace",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "2 (1)",
+        "description": "Whenever a card is Exhausted, draw 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Disarm": {
+        "name": "Disarm",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Enemy loses 2 (3) Strength. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Dropkick": {
+        "name": "Dropkick",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Deal 5 (8) damage. If the enemy has Vulnerable, gain [R] and draw 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Dual Wield": {
+        "name": "Dual Wield",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Choose an Attack or Power card. Add a copy of that card into your hand.",
+        "descriptionUpgraded": "Choose an Attack or Power card. Add 2 copies of that card into your hand."
+    },
+    "Red-Entrench": {
+        "name": "Entrench",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "2 (1)",
+        "description": "Double your Block.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Evolve": {
+        "name": "Evolve",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Whenever you draw a Status card, draw 1 card.",
+        "descriptionUpgraded": "Whenever you draw a Status card, draw 2 cards."
+    },
+    "Red-Feel No Pain": {
+        "name": "Feel No Pain",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Whenever a card is Exhausted, gain 3 (4) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Fire Breathing": {
+        "name": "Fire Breathing",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Whenever you draw a Status or Curse card, deal 6 (10) damage to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Flame Barrier": {
+        "name": "Flame Barrier",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Gain 12 (16) Block. Whenever you are attacked this turn, deal 4 (6) damage back.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Ghostly Armor": {
+        "name": "Ghostly Armor",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Ethereal. Gain 10 (13) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Hemokinesis": {
+        "name": "Hemokinesis",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Lose 2 HP. Deal 15 (20) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Infernal Blade": {
+        "name": "Infernal Blade",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1 (0)",
+        "description": "Add a random Attack into your hand. It costs 0 this turn. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Inflame": {
+        "name": "Inflame",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Gain 2 (3) Strength.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Intimidate": {
+        "name": "Intimidate",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "0",
+        "description": "Apply 1 (2) Weak to ALL enemies. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Metallicize": {
+        "name": "Metallicize",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "At the end of your turn, gain 3 (4) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Power Through": {
+        "name": "Power Through",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Add 2 Wounds into your hand. Gain 15 (20) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Pummel": {
+        "name": "Pummel",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Deal 2 damage 4 (5) times. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Rage": {
+        "name": "Rage",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "0",
+        "description": "Whenever you play an Attack this turn, gain 3 (5) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Rampage": {
+        "name": "Rampage",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Deal 8 damage. Increase this card's damage by 5 (8) this combat.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Reckless Charge": {
+        "name": "Reckless Charge",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "0",
+        "description": "Deal 7 (10) damage. Shuffle a Dazed into your draw pile.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Rupture": {
+        "name": "Rupture",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Whenever you lose HP from a card, gain 1 (2) Strength.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Searing Blow": {
+        "name": "Searing Blow",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Deal 12 (16) damage. Can be Upgraded any number of times.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Second Wind": {
+        "name": "Second Wind",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Exhaust all non-Attack cards in your hand. Gain 5 (7) Block for each card Exhausted.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Seeing Red": {
+        "name": "Seeing Red",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1 (0)",
+        "description": "Gain [R] [R]. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Sentinel": {
+        "name": "Sentinel",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Gain 5 Block. If this card is Exhausted, gain [R] [R].",
+        "descriptionUpgraded": "Gain 8 Block. If this card is Exhausted, gain [R] [R] [R]."
+    },
+    "Red-Sever Soul": {
+        "name": "Sever Soul",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Exhaust all non-Attack cards in your hand. Deal 16 (22) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Shockwave": {
+        "name": "Shockwave",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Apply 3 (5) Weak and Vulnerable to ALL enemies. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Spot Weakness": {
+        "name": "Spot Weakness",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "1",
+        "description": "If the enemy intends to attack, gain 3 (4) Strength.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Uppercut": {
+        "name": "Uppercut",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Deal 13 damage. Apply 1 (2) Weak. Apply 1 (2) Vulnerable.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Whirlwind": {
+        "name": "Whirlwind",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Red",
+        "cost": "X",
+        "description": "Deal 5 (8) damage to ALL enemies X times.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Barricade": {
+        "name": "Barricade",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "3 (2)",
+        "description": "Block is not removed at the start of your turn.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Berserk": {
+        "name": "Berserk",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "0",
+        "description": "Gain 2 (1) Vulnerable. At the start of your turn, gain [R].",
+        "descriptionUpgraded": ""
+    },
+    "Red-Bludgeon": {
+        "name": "Bludgeon",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "3",
+        "description": "Deal 32 (42) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Brutality": {
+        "name": "Brutality",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "0",
+        "description": "At the start of your turn, lose 1 HP and draw 1 card.",
+        "descriptionUpgraded": "Innate. At the start of your turn, lose 1 HP and draw 1 card."
+    },
+    "Red-Corruption": {
+        "name": "Corruption",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "3 (2)",
+        "description": "Skills cost 0. Whenever you play a Skill, Exhaust it.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Demon Form": {
+        "name": "Demon Form",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "3",
+        "description": "At the start of your turn, gain 2 (3) Strength.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Double Tap": {
+        "name": "Double Tap",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "1",
+        "description": "This turn, your next Attack is played twice.",
+        "descriptionUpgraded": "This turn, your next 2 Attacks are played twice."
+    },
+    "Red-Exhume": {
+        "name": "Exhume",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "1 (0)",
+        "description": "Put a card from your exhaust pile into your hand. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Feed": {
+        "name": "Feed",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Deal 10 (12) damage. If Fatal, raise your Max HP by 3 (4). Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Fiend Fire": {
+        "name": "Fiend Fire",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Exhaust your hand. Deal 7 (10) damage for each card Exhausted. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Immolate": {
+        "name": "Immolate",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Deal 21 (28) damage to ALL enemies. Add a Burn into your discard pile.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Impervious": {
+        "name": "Impervious",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Gain 30 (40) Block. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Juggernaut": {
+        "name": "Juggernaut",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Whenever you gain Block, deal 5 (7) damage to a random enemy.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Limit Break": {
+        "name": "Limit Break",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "1",
+        "description": "Double your Strength. Exhaust.",
+        "descriptionUpgraded": "Double your Strength."
+    },
+    "Red-Offering": {
+        "name": "Offering",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "0",
+        "description": "Lose 6 HP. Gain [R] [R]. Draw 3 (5) cards. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Red-Reaper": {
+        "name": "Reaper",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Red",
+        "cost": "2",
+        "description": "Deal 4 (5) damage to ALL enemies. Heal HP equal to unblocked damage. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Defend": {
+        "name": "Defend",
+        "type": "Skill",
+        "rarity": "Basic",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Gain 5 (8) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Neutralize": {
+        "name": "Neutralize",
+        "type": "Attack",
+        "rarity": "Basic",
+        "colour": "Green",
+        "cost": "0",
+        "description": "Deal 3 (4) damage. Apply 1 (2) Weak.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Strike": {
+        "name": "Strike",
+        "type": "Attack",
+        "rarity": "Basic",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 6 (9) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Survivor": {
+        "name": "Survivor",
+        "type": "Skill",
+        "rarity": "Basic",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Gain 8 (11) Block. Discard 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Acrobatics": {
+        "name": "Acrobatics",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Draw 3 (4) cards. Discard 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Backflip": {
+        "name": "Backflip",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Gain 5 (8) Block. Draw 2 cards.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Bane": {
+        "name": "Bane",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 7 (10) damage. If the enemy has Poison, deal 7 (10) damage again.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Blade Dance": {
+        "name": "Blade Dance",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Add 3 (4) Shivs into your hand.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Cloak and Dagger": {
+        "name": "Cloak and Dagger",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Gain 6 Block. Add 1 Shiv into your hand.",
+        "descriptionUpgraded": "Gain 6 Block. Add 2 Shivs into your hand."
+    },
+    "Green-Dagger Spray": {
+        "name": "Dagger Spray",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 4 (6) damage to ALL enemies twice.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Dagger Throw": {
+        "name": "Dagger Throw",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 9 (12) damage. Draw 1 card. Discard 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Deadly Poison": {
+        "name": "Deadly Poison",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Apply 5 (7) Poison.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Deflect": {
+        "name": "Deflect",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "0",
+        "description": "Gain 4 (7) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Dodge and Roll": {
+        "name": "Dodge and Roll",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Gain 4 (6) Block. Next turn, gain 4 (6) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Flying Knee": {
+        "name": "Flying Knee",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 8 (11) damage. Next turn, gain [G].",
+        "descriptionUpgraded": ""
+    },
+    "Green-Outmaneuver": {
+        "name": "Outmaneuver",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Next turn, gain [G] [G].",
+        "descriptionUpgraded": "Next turn, gain [G] [G] [G]."
+    },
+    "Green-Piercing Wail": {
+        "name": "Piercing Wail",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "ALL enemies lose 6 (8) Strength this turn. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Poisoned Stab": {
+        "name": "Poisoned Stab",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 6 (8) damage. Apply 3 (4) Poison.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Prepared": {
+        "name": "Prepared",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "0",
+        "description": "Draw 1 card. Discard 1 card.",
+        "descriptionUpgraded": "Draw 2 cards. Discard 2 cards."
+    },
+    "Green-Quick Slash": {
+        "name": "Quick Slash",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 8 (12) damage. Draw 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Slice": {
+        "name": "Slice",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "0",
+        "description": "Deal 6 (9) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Sneaky Strike": {
+        "name": "Sneaky Strike",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "2",
+        "description": "Deal 12 (16) damage. If you have discarded a card this turn, gain [G] [G].",
+        "descriptionUpgraded": ""
+    },
+    "Green-Sucker Punch": {
+        "name": "Sucker Punch",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 7 (9) damage. Apply 1 (2) Weak.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Accuracy": {
+        "name": "Accuracy",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Shivs deal 4 (6) additional damage.",
+        "descriptionUpgraded": ""
+    },
+    "Green-All-Out Attack": {
+        "name": "All-Out Attack",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 10 (14) damage to ALL enemies. Discard 1 card at random.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Backstab": {
+        "name": "Backstab",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "0",
+        "description": "Innate. Deal 11 (15) damage. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Blur": {
+        "name": "Blur",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Gain 5 (8) Block. Block is not removed at the start of your next turn.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Bouncing Flask": {
+        "name": "Bouncing Flask",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "2",
+        "description": "Apply 3 Poison to a random enemy 3 (4) times.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Calculated Gamble": {
+        "name": "Calculated Gamble",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "0",
+        "description": "Discard your hand, then draw that many cards. Exhaust.",
+        "descriptionUpgraded": "Discard your hand, then draw that many cards."
+    },
+    "Green-Caltrops": {
+        "name": "Caltrops",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Whenever you are attacked, deal 3 (5) damage back.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Catalyst": {
+        "name": "Catalyst",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Double the enemy's Poison. Exhaust.",
+        "descriptionUpgraded": "Triple the enemy's Poison. Exhaust."
+    },
+    "Green-Choke": {
+        "name": "Choke",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "2",
+        "description": "Deal 12 damage. Whenever you play a card this turn, the enemy loses 3 (5) HP.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Concentrate": {
+        "name": "Concentrate",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "0",
+        "description": "Discard 3 (2) cards. Gain [G] [G].",
+        "descriptionUpgraded": ""
+    },
+    "Green-Crippling Cloud": {
+        "name": "Crippling Cloud",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "2",
+        "description": "Apply 4 (7) Poison and 2 Weak to ALL enemies. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Dash": {
+        "name": "Dash",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "2",
+        "description": "Gain 10 (13) Block. Deal 10 (13) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Distraction": {
+        "name": "Distraction",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1 (0)",
+        "description": "Add a random Skill into your hand. It costs 0 this turn. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Endless Agony": {
+        "name": "Endless Agony",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "0",
+        "description": "Deal 4 (6) damage. Whenever you draw this card, add a copy of it into your hand. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Escape Plan": {
+        "name": "Escape Plan",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "0",
+        "description": "Draw 1 card. If you draw a Skill, gain 3 (5) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Eviscerate": {
+        "name": "Eviscerate",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "3",
+        "description": "Costs 1 less [G] for each card discarded this turn. Deal 7 (9) damage 3 times.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Expertise": {
+        "name": "Expertise",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Draw cards until you have 6 (7) in your hand.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Finisher": {
+        "name": "Finisher",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 6 (8) damage for each Attack played this turn.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Flechettes": {
+        "name": "Flechettes",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 4 (6) damage for each Skill in your hand.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Footwork": {
+        "name": "Footwork",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Gain 2 (3) Dexterity.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Heel Hook": {
+        "name": "Heel Hook",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 5 (8) damage. If the enemy has Weak, gain [G] and draw 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Infinite Blades": {
+        "name": "Infinite Blades",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1",
+        "description": "At the start of your turn, add a Shiv into your hand.",
+        "descriptionUpgraded": "Innate. At the start of your turn, add a Shiv into your hand."
+    },
+    "Green-Leg Sweep": {
+        "name": "Leg Sweep",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "2",
+        "description": "Apply 2 (3) Weak. Gain 11 (14) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Masterful Stab": {
+        "name": "Masterful Stab",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "0",
+        "description": "Costs 1 additional [G] for each time you lose HP this combat. Deal 12 (16) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Noxious Fumes": {
+        "name": "Noxious Fumes",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1",
+        "description": "At the start of your turn, apply 2 (3) Poison to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Predator": {
+        "name": "Predator",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "2",
+        "description": "Deal 15 (20) damage. Next turn, draw 2 additional cards.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Reflex": {
+        "name": "Reflex",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "Unplayable",
+        "description": "Unplayable. If this card is discarded from your hand, draw 2 cards.",
+        "descriptionUpgraded": "Unplayable. If this card is discarded from your hand, draw 3 cards."
+    },
+    "Green-Riddle with Holes": {
+        "name": "Riddle with Holes",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "2",
+        "description": "Deal 3 (4) damage 5 times.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Setup": {
+        "name": "Setup",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1 (0)",
+        "description": "Put a card from your hand on top of your draw pile. It costs 0 until played.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Skewer": {
+        "name": "Skewer",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "X",
+        "description": "Deal 7 (10) damage X times.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Tactician": {
+        "name": "Tactician",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "Unplayable",
+        "description": "Unplayable. If this card is discarded from your hand, gain [G].",
+        "descriptionUpgraded": "Unplayable. If this card is discarded from your hand, gain [G] [G]."
+    },
+    "Green-Terror": {
+        "name": "Terror",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1 (0)",
+        "description": "Apply 99 Vulnerable. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Well-Laid Plans": {
+        "name": "Well-Laid Plans",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Green",
+        "cost": "1",
+        "description": "At the end of your turn, Retain up to 1 card.",
+        "descriptionUpgraded": "At the end of your turn, Retain up to 2 cards."
+    },
+    "Green-A Thousand Cuts": {
+        "name": "A Thousand Cuts",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "2",
+        "description": "Whenever you play a card, deal 1 (2) damage to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Adrenaline": {
+        "name": "Adrenaline",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "0",
+        "description": "Gain [G]. Draw 2 cards. Exhaust.",
+        "descriptionUpgraded": "Gain [G] [G]. Draw 2 cards. Exhaust."
+    },
+    "Green-After Image": {
+        "name": "After Image",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Whenever you play a card, gain 1 Block.",
+        "descriptionUpgraded": "Innate. Whenever you play a card, gain 1 Block."
+    },
+    "Green-Alchemize": {
+        "name": "Alchemize",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "1 (0)",
+        "description": "Obtain a random potion. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Bullet Time": {
+        "name": "Bullet Time",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "3 (2)",
+        "description": "You cannot draw additional cards this turn. Reduce the cost of all cards in your hand to 0 this turn.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Burst": {
+        "name": "Burst",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "1",
+        "description": "This turn, your next Skill is played twice.",
+        "descriptionUpgraded": "This turn, your next 2 Skills are played twice."
+    },
+    "Green-Corpse Explosion": {
+        "name": "Corpse Explosion",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "2",
+        "description": "Apply 6 (9) Poison. When the enemy dies, deal damage equal to its Max HP to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Die Die Die": {
+        "name": "Die Die Die",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 13 (17) damage to ALL enemies. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Doppelganger": {
+        "name": "Doppelganger",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "X",
+        "description": "Next turn, draw X cards and gain X [G]. Exhaust.",
+        "descriptionUpgraded": "Next turn, draw X+1 cards and gain X+1 [G]. Exhaust."
+    },
+    "Green-Envenom": {
+        "name": "Envenom",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "2 (1)",
+        "description": "Whenever an Attack deals unblocked damage, apply 1 Poison.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Glass Knife": {
+        "name": "Glass Knife",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 8 (12) damage twice. Decrease the damage of this card by 2 this combat.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Grand Finale": {
+        "name": "Grand Finale",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "0",
+        "description": "Can only be played if there are no cards in your draw pile. Deal 50 (60) damage to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Malaise": {
+        "name": "Malaise",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "X",
+        "description": "Enemy loses X Strength. Apply X Weak. Exhaust.",
+        "descriptionUpgraded": "Enemy loses X+1 Strength. Apply X+1 Weak. Exhaust."
+    },
+    "Green-Nightmare": {
+        "name": "Nightmare",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "3 (2)",
+        "description": "Choose a card. Next turn, add 3 copies of that card into your hand. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Phantasmal Killer": {
+        "name": "Phantasmal Killer",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "1 (0)",
+        "description": "Next turn, your Attacks deal double damage.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Storm of Steel": {
+        "name": "Storm of Steel",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Discard your hand. Add 1 Shiv into your hand for each card discarded.",
+        "descriptionUpgraded": "Discard your hand. Add 1 Shiv+ into your hand for each card discarded."
+    },
+    "Green-Tools of the Trade": {
+        "name": "Tools of the Trade",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "1 (0)",
+        "description": "At the start of your turn, draw 1 card and discard 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Unload": {
+        "name": "Unload",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "1",
+        "description": "Deal 14 (18) damage. Discard all non-Attack cards in your hand.",
+        "descriptionUpgraded": ""
+    },
+    "Green-Wraith Form": {
+        "name": "Wraith Form",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Green",
+        "cost": "3",
+        "description": "Gain 2 (3) Intangible. At the end of your turn, lose 1 Dexterity.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Defend": {
+        "name": "Defend",
+        "type": "Skill",
+        "rarity": "Basic",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Gain 5 (8) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Dualcast": {
+        "name": "Dualcast",
+        "type": "Skill",
+        "rarity": "Basic",
+        "colour": "Blue",
+        "cost": "1 (0)",
+        "description": "Evoke your next Orb twice.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Strike": {
+        "name": "Strike",
+        "type": "Attack",
+        "rarity": "Basic",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Deal 6 (9) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Zap": {
+        "name": "Zap",
+        "type": "Skill",
+        "rarity": "Basic",
+        "colour": "Blue",
+        "cost": "1 (0)",
+        "description": "Channel 1 Lightning.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Ball Lightning": {
+        "name": "Ball Lightning",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Deal 7 (10) damage. Channel 1 Lightning.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Barrage": {
+        "name": "Barrage",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Deal 4 (6) damage for each Channeled Orb.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Beam Cell": {
+        "name": "Beam Cell",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "0",
+        "description": "Deal 3 (4) damage. Apply 1 (2) Vulnerable.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Charge Battery": {
+        "name": "Charge Battery",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Gain 7 (10) Block. Next turn, gain [B].",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Claw": {
+        "name": "Claw",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "0",
+        "description": "Deal 3 (5) damage. Increase the damage of ALL Claw cards by 2 this combat.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Cold Snap": {
+        "name": "Cold Snap",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Deal 6 (9) damage. Channel 1 Frost.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Compile Driver": {
+        "name": "Compile Driver",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Deal 7 (10) damage. Draw 1 card for each unique Orb you have.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Coolheaded": {
+        "name": "Coolheaded",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Channel 1 Frost. Draw 1 card.",
+        "descriptionUpgraded": "Channel 1 Frost. Draw 2 cards."
+    },
+    "Blue-Go for the Eyes": {
+        "name": "Go for the Eyes",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "0",
+        "description": "Deal 3 (4) damage. If the enemy intends to attack, apply 1 (2) Weak.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Hologram": {
+        "name": "Hologram",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Gain 3 Block. Put a card from your discard pile into your hand. Exhaust.",
+        "descriptionUpgraded": "Gain 5 Block. Put a card from your discard pile into your hand."
+    },
+    "Blue-Leap": {
+        "name": "Leap",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Gain 9 (12) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Rebound": {
+        "name": "Rebound",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Deal 9 (12) damage. Put the next card you play this turn on top of your draw pile.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Recursion": {
+        "name": "Recursion",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "1 (0)",
+        "description": "Evoke your next Orb. Channel the Orb that was just Evoked.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Stack": {
+        "name": "Stack",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Gain Block equal to the number of cards in your discard pile.",
+        "descriptionUpgraded": "Gain Block equal to the number of cards in your discard pile +3."
+    },
+    "Blue-Steam Barrier": {
+        "name": "Steam Barrier",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "0",
+        "description": "Gain 6 (8) Block. Decrease this card's Block by 1 this combat.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Streamline": {
+        "name": "Streamline",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "2",
+        "description": "Deal 15 (20) damage. Reduce this card's cost by 1 this combat.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Sweeping Beam": {
+        "name": "Sweeping Beam",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Deal 6 (9) damage to ALL enemies. Draw 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-TURBO": {
+        "name": "TURBO",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Blue",
+        "cost": "0",
+        "description": "Gain [B] [B]. Add a Void into your discard pile.",
+        "descriptionUpgraded": "Gain [B] [B] [B]. Add a Void into your discard pile."
+    },
+    "Blue-Aggregate": {
+        "name": "Aggregate",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Gain [B] for every 4 (3) cards in your draw pile.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Auto-Shields": {
+        "name": "Auto-Shields",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "If you have no Block, gain 11 (15) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Blizzard": {
+        "name": "Blizzard",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Deal damage equal to 2 (3) times the number of Frost Channeled this combat to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Boot Sequence": {
+        "name": "Boot Sequence",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "0",
+        "description": "Innate. Gain 10 (13) Block. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Bullseye": {
+        "name": "Bullseye",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Deal 8 (11) damage. Apply 2 (3) Lock-On.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Capacitor": {
+        "name": "Capacitor",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Gain 2 (3) Orb slots.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Chaos": {
+        "name": "Chaos",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Channel 1 random Orb.",
+        "descriptionUpgraded": "Channel 2 random Orbs."
+    },
+    "Blue-Chill": {
+        "name": "Chill",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "0",
+        "description": "Channel 1 Frost for each enemy in combat. Exhaust.",
+        "descriptionUpgraded": "Innate. Channel 1 Frost for each enemy in combat. Exhaust."
+    },
+    "Blue-Consume": {
+        "name": "Consume",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "2",
+        "description": "Gain 2 (3) Focus. Lose 1 Orb slot.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Darkness": {
+        "name": "Darkness",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Channel 1 Dark.",
+        "descriptionUpgraded": "Channel 1 Dark. Trigger the passive ability of all Dark orbs."
+    },
+    "Blue-Defragment": {
+        "name": "Defragment",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Gain 1 (2) Focus.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Doom and Gloom": {
+        "name": "Doom and Gloom",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "2",
+        "description": "Deal 10 (14) damage to ALL enemies. Channel 1 Dark.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Double Energy": {
+        "name": "Double Energy",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1 (0)",
+        "description": "Double your Energy. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Equilibrium": {
+        "name": "Equilibrium",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "2",
+        "description": "Gain 13 (16) Block. Retain your hand this turn.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-FTL": {
+        "name": "FTL",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "0",
+        "description": "Deal 5 (6) damage. If you have played less than 3 (4) cards this turn, draw 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Force Field": {
+        "name": "Force Field",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "4",
+        "description": "Costs 1 less [B] for each Power card played this combat. Gain 12 (16) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Fusion": {
+        "name": "Fusion",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "2 (1)",
+        "description": "Channel 1 Plasma.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Genetic Algorithm": {
+        "name": "Genetic Algorithm",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Gain 1 Block. Permanently increase this card's Block by 2 (3). Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Glacier": {
+        "name": "Glacier",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "2",
+        "description": "Gain 7 (10) Block. Channel 2 Frost.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Heatsinks": {
+        "name": "Heatsinks",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Whenever you play a Power card, draw 1 card.",
+        "descriptionUpgraded": "Whenever you play a Power card, draw 2 cards."
+    },
+    "Blue-Hello World": {
+        "name": "Hello World",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "At the start of your turn, add a random Common card into your hand.",
+        "descriptionUpgraded": "Innate. At the start of your turn, add a random Common card into your hand."
+    },
+    "Blue-Loop": {
+        "name": "Loop",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "At the start of your turn, trigger the passive ability of your next Orb.",
+        "descriptionUpgraded": "At the start of your turn, trigger the passive ability of your next Orb 2 times."
+    },
+    "Blue-Melter": {
+        "name": "Melter",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Remove all Block from the enemy. Deal 10 (14) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Overclock": {
+        "name": "Overclock",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "0",
+        "description": "Draw 2 (3) cards. Add a Burn into your discard pile.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Recycle": {
+        "name": "Recycle",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1 (0)",
+        "description": "Exhaust a card. Gain [B] equal to its cost.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Reinforced Body": {
+        "name": "Reinforced Body",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "X",
+        "description": "Gain 7 (9) Block X times.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Reprogram": {
+        "name": "Reprogram",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Lose 1 (2) Focus. Gain 1 (2) Strength. Gain 1 (2) Dexterity.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Rip and Tear": {
+        "name": "Rip and Tear",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Deal 7 (9) damage to a random enemy twice.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Scrape": {
+        "name": "Scrape",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Deal 7 (10) damage. Draw 4 (5) cards. Discard all cards drawn this way that do not cost 0.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Self Repair": {
+        "name": "Self Repair",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "At the end of combat, heal 7 (10) HP.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Skim": {
+        "name": "Skim",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Draw 3 (4) cards.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Static Discharge": {
+        "name": "Static Discharge",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Whenever you receive unblocked attack damage, Channel 1 (2) Lightning.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Storm": {
+        "name": "Storm",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Whenever you play a Power card, Channel 1 Lightning.",
+        "descriptionUpgraded": "Innate. Whenever you play a Power card, Channel 1 Lightning."
+    },
+    "Blue-Sunder": {
+        "name": "Sunder",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "3",
+        "description": "Deal 24 (32) damage. If this kills an enemy, gain [B] [B] [B].",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Tempest": {
+        "name": "Tempest",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "X",
+        "description": "Channel X Lightning. Exhaust.",
+        "descriptionUpgraded": "Channel X+1 Lightning. Exhaust."
+    },
+    "Blue-White Noise": {
+        "name": "White Noise",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Blue",
+        "cost": "1 (0)",
+        "description": "Add a random Power card into your hand. It costs 0 this turn. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-All for One": {
+        "name": "All for One",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "2",
+        "description": "Deal 10 (14) damage. Put all cost 0 cards from your discard pile into your hand.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Amplify": {
+        "name": "Amplify",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "This turn, your next Power card is played twice.",
+        "descriptionUpgraded": "This turn, your next 2 Power cards are played twice."
+    },
+    "Blue-Biased Cognition": {
+        "name": "Biased Cognition",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Gain 4 (5) Focus. At the start of your turn, lose 1 Focus.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Buffer": {
+        "name": "Buffer",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "2",
+        "description": "Prevent the next time you would lose HP.",
+        "descriptionUpgraded": "Prevent the next 2 times you would lose HP."
+    },
+    "Blue-Core Surge": {
+        "name": "Core Surge",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "Deal 11 (15) damage. Gain 1 Artifact. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Creative AI": {
+        "name": "Creative AI",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "3 (2)",
+        "description": "At the start of your turn, add a random Power card into your hand.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Echo Form": {
+        "name": "Echo Form",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "3",
+        "description": "Ethereal. The first card you play each turn is played twice.",
+        "descriptionUpgraded": "The first card you play each turn is played twice."
+    },
+    "Blue-Electrodynamics": {
+        "name": "Electrodynamics",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "2",
+        "description": "Lightning now hits ALL enemies. Channel 2 (3) Lightning.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Fission": {
+        "name": "Fission",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "0",
+        "description": "Remove all your Orbs. Gain [B] and draw 1 card for each Orb removed. Exhaust.",
+        "descriptionUpgraded": "Evoke all your Orbs. Gain [B] and draw 1 card for each Orb Evoked. Exhaust."
+    },
+    "Blue-Hyperbeam": {
+        "name": "Hyperbeam",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "2",
+        "description": "Deal 26 (34) damage to ALL enemies. Lose 3 Focus.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Machine Learning": {
+        "name": "Machine Learning",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "1",
+        "description": "At the start of your turn, draw 1 additional card.",
+        "descriptionUpgraded": "Innate. At the start of your turn, draw 1 additional card."
+    },
+    "Blue-Meteor Strike": {
+        "name": "Meteor Strike",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "5",
+        "description": "Deal 24 (30) damage. Channel 3 Plasma.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Multi-Cast": {
+        "name": "Multi-Cast",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "X",
+        "description": "Evoke your next Orb X times.",
+        "descriptionUpgraded": "Evoke your next Orb X+1 times."
+    },
+    "Blue-Rainbow": {
+        "name": "Rainbow",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "2",
+        "description": "Channel 1 Lightning. Channel 1 Frost. Channel 1 Dark. Exhaust.",
+        "descriptionUpgraded": "Channel 1 Lightning. Channel 1 Frost. Channel 1 Dark."
+    },
+    "Blue-Reboot": {
+        "name": "Reboot",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "0",
+        "description": "Shuffle ALL your cards into your draw pile. Draw 4 (6) cards. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Blue-Seek": {
+        "name": "Seek",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "0",
+        "description": "Put 1 card from your draw pile into your hand. Exhaust.",
+        "descriptionUpgraded": "Put 2 cards from your draw pile into your hand. Exhaust."
+    },
+    "Blue-Thunder Strike": {
+        "name": "Thunder Strike",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Blue",
+        "cost": "3",
+        "description": "Deal 7 (9) damage to a random enemy for each Lightning Channeled this combat.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Defend": {
+        "name": "Defend",
+        "type": "Skill",
+        "rarity": "Basic",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Gain 5 (8) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Eruption": {
+        "name": "Eruption",
+        "type": "Attack",
+        "rarity": "Basic",
+        "colour": "Purple",
+        "cost": "2 (1)",
+        "description": "Deal 9 damage. Enter Wrath.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Strike": {
+        "name": "Strike",
+        "type": "Attack",
+        "rarity": "Basic",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Deal 6 (9) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Vigilance": {
+        "name": "Vigilance",
+        "type": "Skill",
+        "rarity": "Basic",
+        "colour": "Purple",
+        "cost": "2",
+        "description": "Gain 8 (12) Block. Enter Calm.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Bowling Bash": {
+        "name": "Bowling Bash",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Deal 7 (10) damage for each enemy in combat.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Consecrate": {
+        "name": "Consecrate",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "0",
+        "description": "Deal 5 (8) damage to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Crescendo": {
+        "name": "Crescendo",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "1 (0)",
+        "description": "Retain. Enter Wrath. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Crush Joints": {
+        "name": "Crush Joints",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Deal 8 (10) damage. If the last card played this combat was a Skill, apply 1 (2) Vulnerable.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Cut Through Fate": {
+        "name": "Cut Through Fate",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Deal 7 (9) damage. Scry 2 (3). Draw 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Empty Body": {
+        "name": "Empty Body",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Gain 7 (10) Block. Exit your Stance.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Empty Fist": {
+        "name": "Empty Fist",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Deal 9 (14) damage. Exit your Stance.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Evaluate": {
+        "name": "Evaluate",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Gain 6 (10) Block. Shuffle an Insight into your draw pile.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Flurry of Blows": {
+        "name": "Flurry of Blows",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "0",
+        "description": "Deal 4 (6) damage. Whenever you change Stances, return this from the discard pile to your hand.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Flying Sleeves": {
+        "name": "Flying Sleeves",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Retain. Deal 4 (6) damage twice.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Follow-Up": {
+        "name": "Follow-Up",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Deal 7 (11) damage. If the last card played this combat was an Attack, gain [W].",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Halt": {
+        "name": "Halt",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "0",
+        "description": "Gain 3 (4) Block. If you are in Wrath, gain 9 (14) additional Block.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Just Lucky": {
+        "name": "Just Lucky",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "0",
+        "description": "Scry 1 (2). Gain 2 (3) Block. Deal 3 (4) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Pressure Points": {
+        "name": "Pressure Points",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Apply 8 (11) Mark. ALL enemies lose HP equal to their Mark.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Prostrate": {
+        "name": "Prostrate",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "0",
+        "description": "Gain 2 (3) Mantra. Gain 4 Block.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Protect": {
+        "name": "Protect",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "2",
+        "description": "Retain. Gain 12 (16) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Sash Whip": {
+        "name": "Sash Whip",
+        "type": "Attack",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Deal 8 (10) damage. If the last card played this combat was an Attack, apply 1 (2) Weak.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Third Eye": {
+        "name": "Third Eye",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Gain 7 (9) Block. Scry 3 (5).",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Tranquility": {
+        "name": "Tranquility",
+        "type": "Skill",
+        "rarity": "Common",
+        "colour": "Purple",
+        "cost": "1 (0)",
+        "description": "Retain. Enter Calm. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Battle Hymn": {
+        "name": "Battle Hymn",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "At the start of each turn, add a Smite into your hand.",
+        "descriptionUpgraded": "Innate. At the start of each turn, add a Smite into your hand."
+    },
+    "Purple-Carve Reality": {
+        "name": "Carve Reality",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Deal 6 (10) damage. Add a Smite into your hand.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Collect": {
+        "name": "Collect",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "X",
+        "description": "Put a Miracle+ into your hand at the start of your next X turns. Exhaust.",
+        "descriptionUpgraded": "Put a Miracle+ into your hand at the start of your next X+1 turns. Exhaust."
+    },
+    "Purple-Conclude": {
+        "name": "Conclude",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Deal 12 (16) damage to ALL enemies. End your turn.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Deceive Reality": {
+        "name": "Deceive Reality",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Gain 4 (7) Block. Add a Safety into your hand.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Empty Mind": {
+        "name": "Empty Mind",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Draw 2 (3) cards. Exit your Stance.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Fasting": {
+        "name": "Fasting",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "2",
+        "description": "Gain 3 (4) Strength. Gain 3 (4) Dexterity. Gain 1 less [W] at the start of each turn.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Fear No Evil": {
+        "name": "Fear No Evil",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Deal 8 (11) damage. If the enemy intends to Attack, enter Calm.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Foreign Influence": {
+        "name": "Foreign Influence",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "0",
+        "description": "Choose 1 of 3 Attacks of any color to add into your hand. Exhaust.",
+        "descriptionUpgraded": "Choose 1 of 3 Attacks of any color to add into your hand. It costs 0 this turn. Exhaust."
+    },
+    "Purple-Foresight": {
+        "name": "Foresight",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "At the start of your turn, Scry 3 (4).",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Indignation": {
+        "name": "Indignation",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "If you are in Wrath, apply 3 (5) Vulnerable to ALL enemies, otherwise enter Wrath.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Inner Peace": {
+        "name": "Inner Peace",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "If you are in Calm, draw 3 (4) cards, otherwise enter Calm.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Like Water": {
+        "name": "Like Water",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "At the end of your turn, if you are in Calm, gain 5 (7) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Meditate": {
+        "name": "Meditate",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Put a card from your discard pile into your hand and Retain it. Enter Calm. End your turn.",
+        "descriptionUpgraded": "Put 2 cards from your discard pile into your hand and Retain them. Enter Calm. End your turn."
+    },
+    "Purple-Mental Fortress": {
+        "name": "Mental Fortress",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Whenever you change Stances, gain 4 (6) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Nirvana": {
+        "name": "Nirvana",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Whenever you Scry, gain 3 (4) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Perseverance": {
+        "name": "Perseverance",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Retain. Gain 5 (7) Block. When Retained, increase its Block by 2 (3) this combat.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Pray": {
+        "name": "Pray",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Gain 3 (4) Mantra. Shuffle an Insight into your draw pile.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Reach Heaven": {
+        "name": "Reach Heaven",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "2",
+        "description": "Deal 10 (15) damage. Shuffle a Through Violence into your draw pile.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Rushdown": {
+        "name": "Rushdown",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1 (0)",
+        "description": "Whenever you enter Wrath, draw 2 cards.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Sanctity": {
+        "name": "Sanctity",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Gain 6 (9) Block. If the last card played this combat was a Skill, draw 2 cards.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Sands of Time": {
+        "name": "Sands of Time",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "4",
+        "description": "Retain. Deal 20 (26) damage. When Retained, lower its cost by 1 this combat.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Signature Move": {
+        "name": "Signature Move",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "2",
+        "description": "Can only be played if this is the only Attack in your hand. Deal 30 (40) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Simmering Fury": {
+        "name": "Simmering Fury",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "At the start of your next turn, enter Wrath and draw 2 (3) cards.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Study": {
+        "name": "Study",
+        "type": "Power",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "2 (1)",
+        "description": "At the end of your turn, shuffle an Insight into your draw pile.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Swivel": {
+        "name": "Swivel",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "2",
+        "description": "Gain 8 (11) Block. The next Attack you play costs 0.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Talk to the Hand": {
+        "name": "Talk to the Hand",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Deal 5 (7) damage. Whenever you attack this enemy, gain 2 (3) Block. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Tantrum": {
+        "name": "Tantrum",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Deal 3 damage 3 (4) times. Enter Wrath. Shuffle this card into your draw pile.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Wallop": {
+        "name": "Wallop",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "2",
+        "description": "Deal 9 (12) damage. Gain Block equal to unblocked damage dealt.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Wave of the Hand": {
+        "name": "Wave of the Hand",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Whenever you gain Block this turn, apply 1 (2) Weak to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Weave": {
+        "name": "Weave",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "0",
+        "description": "Deal 4 (6) damage. Whenever you Scry, return this from the discard pile to your Hand.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Wheel Kick": {
+        "name": "Wheel Kick",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "2",
+        "description": "Deal 15 (20) damage. Draw 2 cards.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Windmill Strike": {
+        "name": "Windmill Strike",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "2",
+        "description": "Retain. Deal 7 (10) damage. When Retained, increase its damage by 4 (5) this combat.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Worship": {
+        "name": "Worship",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "2",
+        "description": "Gain 5 Mantra.",
+        "descriptionUpgraded": "Retain. Gain 5 Mantra."
+    },
+    "Purple-Wreath of Flame": {
+        "name": "Wreath of Flame",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Your next Attack deals 5 (8) additional damage.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Alpha": {
+        "name": "Alpha",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Shuffle a Beta into your draw pile. Exhaust.",
+        "descriptionUpgraded": "Innate. Shuffle a Beta into your draw pile. Exhaust."
+    },
+    "Purple-Blasphemy": {
+        "name": "Blasphemy",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Enter Divinity. Die next turn. Exhaust.",
+        "descriptionUpgraded": "Retain. Enter Divinity. Die next turn. Exhaust."
+    },
+    "Purple-Brilliance": {
+        "name": "Brilliance",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Deal 12 (16) damage. Deals additional damage equal to Mantra gained this combat.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Conjure Blade": {
+        "name": "Conjure Blade",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "X",
+        "description": "Shuffle an Expunger into your draw pile. Exhaust.",
+        "descriptionUpgraded": "Shuffle an Expunger with X+1 into your draw pile. Exhaust."
+    },
+    "Purple-Deus Ex Machina": {
+        "name": "Deus Ex Machina",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "Unplayable",
+        "description": "Unplayable. When you draw this card, add 2 (3) Miracles to your hand and Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Deva Form": {
+        "name": "Deva Form",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "3",
+        "description": "Ethereal. At the start of your turn, gain [W] and increase this gain by 1.",
+        "descriptionUpgraded": "At the start of your turn, gain [W] and increase this gain by 1."
+    },
+    "Purple-Devotion": {
+        "name": "Devotion",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "At the start of your turn, gain 2 (3) Mantra.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Establishment": {
+        "name": "Establishment",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "Whenever a card is Retained, reduce its cost by 1 this combat.",
+        "descriptionUpgraded": "Innate. Whenever a card is Retained, reduce its cost by 1 this combat."
+    },
+    "Purple-Judgment": {
+        "name": "Judgment",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "1",
+        "description": "If the enemy has 30 (40) or less HP, set their HP to 0.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Lesson Learned": {
+        "name": "Lesson Learned",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "2",
+        "description": "Deal 10 (13) damage. If Fatal, Upgrade a random card in your deck. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Master Reality": {
+        "name": "Master Reality",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "1 (0)",
+        "description": "Whenever a card is created during combat, Upgrade it.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Omniscience": {
+        "name": "Omniscience",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "4 (3)",
+        "description": "Choose a card in your draw pile. Play the chosen card twice and exhaust it. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Ragnarok": {
+        "name": "Ragnarok",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "3",
+        "description": "Deal 5 (6) damage to a random enemy 5 (6) times.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Scrawl": {
+        "name": "Scrawl",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "1 (0)",
+        "description": "Draw cards until your hand is full. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Spirit Shield": {
+        "name": "Spirit Shield",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "2",
+        "description": "Gain 3 (4) Block for each card in your hand.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Vault": {
+        "name": "Vault",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "3 (2)",
+        "description": "Take an extra turn after this one. End your turn. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Purple-Wish": {
+        "name": "Wish",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Purple",
+        "cost": "3",
+        "description": "Choose one: Gain 6 (8) Plated Armor, 3 (4) Strength, or 25 (30) Gold. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Bandage Up": {
+        "name": "Bandage Up",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Heal 4 (6) HP. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Blind": {
+        "name": "Blind",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Apply 2 Weak.",
+        "descriptionUpgraded": "Apply 2 Weak to ALL enemies."
+    },
+    "Colorless-Dark Shackles": {
+        "name": "Dark Shackles",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Enemy loses 9 (15) Strength this turn. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Deep Breath": {
+        "name": "Deep Breath",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Shuffle your discard pile into your draw pile. Draw 1 card.",
+        "descriptionUpgraded": "Shuffle your discard pile into your draw pile. Draw 2 cards."
+    },
+    "Colorless-Discovery": {
+        "name": "Discovery",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "1",
+        "description": "Choose 1 of 3 random cards to add into your hand. It costs 0 this turn. Exhaust.",
+        "descriptionUpgraded": "Choose 1 of 3 random cards to add into your hand. It costs 0 this turn."
+    },
+    "Colorless-Dramatic Entrance": {
+        "name": "Dramatic Entrance",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Innate. Deal 8 (12) damage to ALL enemies. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Enlightenment": {
+        "name": "Enlightenment",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Reduce the cost of all cards in your hand to 1 this turn.",
+        "descriptionUpgraded": "Reduce the cost of all cards in your hand to 1 this combat."
+    },
+    "Colorless-Finesse": {
+        "name": "Finesse",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Gain 2 (4) Block. Draw 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Flash of Steel": {
+        "name": "Flash of Steel",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Deal 3 (6) damage. Draw 1 card.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Forethought": {
+        "name": "Forethought",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Put a card from your hand to the bottom of your draw pile. It costs 0 until played.",
+        "descriptionUpgraded": "Put any number of cards from your hand to the bottom of your draw pile. They cost 0 until played."
+    },
+    "Colorless-Good Instincts": {
+        "name": "Good Instincts",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Gain 6 (9) Block.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Impatience": {
+        "name": "Impatience",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "If you have no Attacks in your hand, draw 2 (3) cards.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Jack of All Trades": {
+        "name": "Jack of All Trades",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Add 1 random Colorless card into your hand. Exhaust.",
+        "descriptionUpgraded": "Add 2 random Colorless cards into your hand. Exhaust."
+    },
+    "Colorless-Madness": {
+        "name": "Madness",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "1 (0)",
+        "description": "Reduce the cost of a random card in your hand to 0 this combat. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Mind Blast": {
+        "name": "Mind Blast",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "2 (1)",
+        "description": "Innate. Deal damage equal to the number of cards in your draw pile.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Panacea": {
+        "name": "Panacea",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Gain 1 (2) Artifact. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Panic Button": {
+        "name": "Panic Button",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Gain 30 (40) Block. You cannot gain Block from cards for 2 turns. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Purity": {
+        "name": "Purity",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Exhaust up to 3 (5) cards in your hand. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Swift Strike": {
+        "name": "Swift Strike",
+        "type": "Attack",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Deal 7 (10) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Trip": {
+        "name": "Trip",
+        "type": "Skill",
+        "rarity": "Uncommon",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Apply 2 Vulnerable.",
+        "descriptionUpgraded": "Apply 2 Vulnerable to ALL enemies."
+    },
+    "Colorless-Apotheosis": {
+        "name": "Apotheosis",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "2 (1)",
+        "description": "Upgrade ALL your cards for the rest of combat. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Chrysalis": {
+        "name": "Chrysalis",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "2",
+        "description": "Shuffle 3 (5) random Skills into your draw pile. They cost 0 this combat. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Hand of Greed": {
+        "name": "Hand of Greed",
+        "type": "Attack",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "2",
+        "description": "Deal 20 (25) damage. If Fatal, gain 20 (25) Gold.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Magnetism": {
+        "name": "Magnetism",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "2 (1)",
+        "description": "At the start of your turn, add a random Colorless card into your hand.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Master of Strategy": {
+        "name": "Master of Strategy",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Draw 3 (4) cards. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Mayhem": {
+        "name": "Mayhem",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "2 (1)",
+        "description": "At the start of your turn, play the top card of your draw pile.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Metamorphosis": {
+        "name": "Metamorphosis",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "2",
+        "description": "Shuffle 3 (5) random Attacks into your draw pile. They cost 0 this combat. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Panache": {
+        "name": "Panache",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Every time you play 5 cards in a single turn, deal 10 (14) damage to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Sadistic Nature": {
+        "name": "Sadistic Nature",
+        "type": "Power",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Whenever you apply a debuff to an enemy, they take 5 (7) damage.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Secret Technique": {
+        "name": "Secret Technique",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Put a Skill from your draw pile into your hand. Exhaust.",
+        "descriptionUpgraded": "Put a Skill from your draw pile into your hand."
+    },
+    "Colorless-Secret Weapon": {
+        "name": "Secret Weapon",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Put an Attack from your draw pile into your hand. Exhaust.",
+        "descriptionUpgraded": "Put an Attack from your draw pile into your hand."
+    },
+    "Colorless-The Bomb": {
+        "name": "The Bomb",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "2",
+        "description": "At the end of 3 turns, deal 40 (50) damage to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Thinking Ahead": {
+        "name": "Thinking Ahead",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Draw 2 cards. Put a card from your hand on top of your draw pile. Exhaust.",
+        "descriptionUpgraded": "Draw 2 cards. Put a card from your hand on top of your draw pile."
+    },
+    "Colorless-Transmutation": {
+        "name": "Transmutation",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "X",
+        "description": "Add X random Colorless cards into your hand. They cost 0 this turn. Exhaust.",
+        "descriptionUpgraded": "Add X random Upgraded Colorless cards into your hand. They cost 0 this turn. Exhaust."
+    },
+    "Colorless-Violence": {
+        "name": "Violence",
+        "type": "Skill",
+        "rarity": "Rare",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Put 3 (4) random Attacks from your draw pile into your hand. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Apparition": {
+        "name": "Apparition",
+        "type": "Skill",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "1",
+        "description": "Ethereal. Gain 1 Intangible. Exhaust.",
+        "descriptionUpgraded": "Gain 1 Intangible. Exhaust."
+    },
+    "Colorless-Become Almighty": {
+        "name": "Become Almighty",
+        "type": "Power",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Gain 3 (4) Strength.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Beta": {
+        "name": "Beta",
+        "type": "Skill",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "2 (1)",
+        "description": "Shuffle an Omega into your draw pile. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Bite": {
+        "name": "Bite",
+        "type": "Attack",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "1",
+        "description": "Deal 7 (8) damage. Heal 2 (3) HP.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Expunger": {
+        "name": "Expunger",
+        "type": "Attack",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "1",
+        "description": "Deal 9 (15) damage X times.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Fame and Fortune": {
+        "name": "Fame and Fortune",
+        "type": "Skill",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Gain 25 (30) Gold.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Insight": {
+        "name": "Insight",
+        "type": "Skill",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Retain. Draw 2 (3) cards. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-J.A.X.": {
+        "name": "J.A.X.",
+        "type": "Skill",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Lose 3 HP. Gain 2 (3) Strength.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Live Forever": {
+        "name": "Live Forever",
+        "type": "Power",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Gain 6 (8) Plated Armor.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Miracle": {
+        "name": "Miracle",
+        "type": "Skill",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Retain. Gain [W]. Exhaust.",
+        "descriptionUpgraded": "Retain. Gain [W] [W]. Exhaust."
+    },
+    "Colorless-Omega": {
+        "name": "Omega",
+        "type": "Power",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "3",
+        "description": "At the end of your turn, deal 50 (60) damage to ALL enemies.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Ritual Dagger": {
+        "name": "Ritual Dagger",
+        "type": "Attack",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "1",
+        "description": "Deal 15 damage. If Fatal, permanently increase this card's damage by 3 (5). Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Safety": {
+        "name": "Safety",
+        "type": "Skill",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "1",
+        "description": "Retain. Gain 12 (16) Block. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Shiv": {
+        "name": "Shiv",
+        "type": "Attack",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Deal 4 (6) damage. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Smite": {
+        "name": "Smite",
+        "type": "Attack",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "1",
+        "description": "Retain. Deal 12 (16) damage. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Through Violence": {
+        "name": "Through Violence",
+        "type": "Attack",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "0",
+        "description": "Retain. Deal 20 (30) damage. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Clumsy": {
+        "name": "Clumsy",
+        "type": "Curse",
+        "rarity": "Curse",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. Ethereal.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Decay": {
+        "name": "Decay",
+        "type": "Curse",
+        "rarity": "Curse",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. At the end of your turn, take 2 damage.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Doubt": {
+        "name": "Doubt",
+        "type": "Curse",
+        "rarity": "Curse",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. At the end of your turn, gain 1 Weak.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Injury": {
+        "name": "Injury",
+        "type": "Curse",
+        "rarity": "Curse",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Normality": {
+        "name": "Normality",
+        "type": "Curse",
+        "rarity": "Curse",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. While in hand, you cannot play more than 3 cards this turn.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Pain": {
+        "name": "Pain",
+        "type": "Curse",
+        "rarity": "Curse",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. While in hand, lose 1 HP whenever you play another card.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Parasite": {
+        "name": "Parasite",
+        "type": "Curse",
+        "rarity": "Curse",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. If transformed or removed from your deck, lose 3 Max HP.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Regret": {
+        "name": "Regret",
+        "type": "Curse",
+        "rarity": "Curse",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. At the end of your turn, lose HP equal to the number of cards in your hand.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Shame": {
+        "name": "Shame",
+        "type": "Curse",
+        "rarity": "Curse",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. At the end of your turn, gain 1 Frail.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Writhe": {
+        "name": "Writhe",
+        "type": "Curse",
+        "rarity": "Curse",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. Innate.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Ascender's Bane": {
+        "name": "Ascender's Bane",
+        "type": "Curse",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. Ethereal. Cannot be removed from your deck.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Curse of the Bell": {
+        "name": "Curse of the Bell",
+        "type": "Curse",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. Cannot be removed from your deck.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Necronomicurse": {
+        "name": "Necronomicurse",
+        "type": "Curse",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. There is no escape from this Curse.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Pride": {
+        "name": "Pride",
+        "type": "Curse",
+        "rarity": "Special",
+        "colour": "Colorless",
+        "cost": "1",
+        "description": "Innate. At the end of your turn, put a copy of this card on top of your draw pile. Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Burn": {
+        "name": "Burn",
+        "type": "Status",
+        "rarity": "Common",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. At the end of your turn, take 2 damage.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Dazed": {
+        "name": "Dazed",
+        "type": "Status",
+        "rarity": "Common",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. Ethereal.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Slimed": {
+        "name": "Slimed",
+        "type": "Status",
+        "rarity": "Common",
+        "colour": "Colorless",
+        "cost": "1",
+        "description": "Exhaust.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Void": {
+        "name": "Void",
+        "type": "Status",
+        "rarity": "Common",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable. Ethereal. Whenever this card is drawn, lose 1 Energy.",
+        "descriptionUpgraded": ""
+    },
+    "Colorless-Wound": {
+        "name": "Wound",
+        "type": "Status",
+        "rarity": "Common",
+        "colour": "Colorless",
+        "cost": "Unplayable",
+        "description": "Unplayable.",
+        "descriptionUpgraded": ""
+    }
+}
