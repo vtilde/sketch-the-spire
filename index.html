@@ -3,9 +3,12 @@
     <head>
         <title>draw the sts card</title>
         <link rel="stylesheet" href="index.css">
-        <script src="https://elements.colorjs.io/src/color-picker/color-picker.js" type="module"></script>
+        <script src="https://colorjs.io/dist/color.global.js"></script>
+        <script src="https://elements.colorjs.io/src/color-picker/color-picker.js" type="module"></script><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="kreon-font">
         <div id="drawing">
             <div class="container">
                 <canvas id="drawing-canvas"></canvas>
@@ -32,6 +35,9 @@
             <div class="container">
                 <img id="real-card">
                 <img id="drawn-card">
+            </div>
+            <div class="container">
+                <p class="score">Accuracy: <span id="score-value"></span>%</p>
             </div>
         </div>
         </body>

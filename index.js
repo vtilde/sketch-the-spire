@@ -18,6 +18,8 @@ const offsetLeft = canvas.offsetLeft;
 const offsetTop = canvas.offsetTop;
 
 const ctx = canvas.getContext("2d");
+ctx.fillStyle = "white";
+ctx.fillRect(0, 0, canvas.width, canvas.height)
 ctx.strokeStyle = "rgb(141, 31, 10)";
 ctx.lineWidth = 5;
 ctx.lineCap = "round";
@@ -51,7 +53,6 @@ var picker = document.getElementById("picker");
 picker.addEventListener("colorchange", (event) => {
     if (event.detail != null && "value" in event.detail) {
         var newColourValue = event.detail.value.coords;
-        console.log(`color(--hsv ${newColourValue[0]} ${newColourValue[1]}% ${newColourValue[2]}%)`);
         ctx.strokeStyle =`hsl(${newColourValue[0]} ${newColourValue[1]} ${newColourValue[2]})`;
     }
 });
@@ -64,7 +65,6 @@ thicknessSlider.addEventListener("input", (event) => {
     var thicknessValue = event.target.value;
     ctx.lineWidth = thicknessValue;
     thicknessDisplay.setAttribute("r", thicknessValue / 2)
-    console.log(thicknessValue);
 });
 picker.addEventListener("colorchange", (event) => {
     if (event.detail != null && "value" in event.detail) {
@@ -86,12 +86,26 @@ function reshapeImageData (data) {
     return newArray;
 };
 
-function colourDifference (col1, col2) {
-    return Math.sqrt(
+function colourDifference (col1, col2, space="lab") {
+    var diff = Math.sqrt(
         ((col1[0] - col2[0]) ** 2) +
         ((col1[1] - col2[1]) ** 2) +
         ((col1[2] - col2[2]) ** 2)
     );
+
+    return diff
+};
+function colourDistance (col1, col2, space="lab") {
+    // var diff = Math.sqrt(
+    //     ((col1[0] - col2[0]) ** 2) +
+    //     ((col1[1] - col2[1]) ** 2) +
+    //     ((col1[2] - col2[2]) ** 2)
+    // );
+
+    // return diff
+    var col1Obj = new Color("srgb", col1.slice(0, 3));
+    var col2Obj = new Color("srgb", col2.slice(0, 3));
+    return Color.distance(col1Obj, col2Obj, space);
 };
 
 function submit () {
@@ -108,32 +122,43 @@ function submit () {
     
     // real card
     var canvasReal = document.createElement("canvas");
+    canvasReal.id = "canvasReal";
     var ctxReal = canvasReal.getContext("2d");
     var imgReal = document.getElementById("real-card");
     canvasReal.width = imgReal.width;
     canvasReal.height = imgReal.height;
     ctxReal.drawImage(imgReal, 0, 0);
+    document.body.prepend(canvasReal);
     var imageDataReal = ctxReal.getImageData(0, 0, canvasReal.width, canvasReal.height, {colorSpace: "srgb"});
     var pixelDataReal = reshapeImageData(imageDataReal);
 
-    // compare pixels
-    var totalScore = 0;
+    // compare pixels > get colour distance (0 = same colour)
+    var totalDist = 0;
     var pixels = 0;
     for (i = 0; i < pixelData.length; i++) {
-        if (pixelDataReal[i][3] == 255) { // ignore if transparent on real card (outside border)
-            if (i < 10) {
-                console.log(pixelData[i], pixelDataReal[i]);
-                console.log(colourDifference(pixelData[i], pixelDataReal[i]));
-            }
-            totalScore += colourDifference(pixelData[i], pixelDataReal[i]);
+        if (pixelDataReal[i][3] == 255) { // ignore if transparent on real card (outside art frame)
+            // if (i<10) {
+            //     console.log("pixel #"+i.toString(), pixelData[i], pixelDataReal[i]);
+            //     console.log("sqrt ", colourDifference(pixelData[i], pixelDataReal[i]));
+            //     console.log("colorjs", colourDistance(pixelData[i], pixelDataReal[i], "lab"));
+            // }
+            // totalDist += colourDifference(pixelData[i], pixelDataReal[i]);
+            totalDist += colourDistance(pixelData[i], pixelDataReal[i]);
             pixels += 1;
         };
     };
-    var finalScore = totalScore / pixels;
+    var meanDist = totalDist / pixels;
 
-    console.log(totalScore);
-    console.log(pixels);
-    console.log(finalScore);
+
+    // best score = 0 (no colour distance)
+    var black = new Color("lab", [100,0,0]);
+    var white = new Color("lab", [0,0,0]);
+    console.log("bwdist", Color.distance(black, white));
+    console.log("meandist", meanDist);
+
+
+    // document.getElementById("score-value").innerText = accuracy.toFixed(2);
+    document.getElementById("score-value").innerText = meanDist.toFixed(2);
 
     document.getElementById("drawing").style.display = "none";
     document.getElementById("results").style.display = "block";

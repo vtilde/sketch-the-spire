@@ -5,6 +5,13 @@ body {
     width: 100%;
 }
 
+.kreon-font {
+    font-family: "Kreon", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
 .container {
     margin: 5px auto;
     max-width: 500px;
@@ -14,9 +21,15 @@ body {
     padding: 10px;
 }
 
+
+/* drawing */
 .inner-container {
     padding: 5px;
     /* border: 2px solid blue; */
+}
+
+canvas {
+    image-rendering: pixelated;
 }
 
 #colour-container {
@@ -40,10 +53,20 @@ body {
     margin: auto;
 }
 
+
+/* results */
 #real-card {
     border: 2px solid green;
 }
 
 #drawn-card {
     border: 2px solid yellow;
+}
+
+.results {
+    font-size: 2em;
+}
+
+#score-value {
+    font-weight: bold;
 }
