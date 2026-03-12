@@ -5,8 +5,23 @@ var card = params.get("card");
 if (card == null) {
     card = "Red-Strike";
 };
-var cardURL = "data/art/" + card.replaceAll(" ", "") + ".png"
-document.getElementById("real-card").src = cardURL;
+fetch("data/cardData.json")
+.then((res) => res.json())
+.then((data) => {
+    if (card in data) {
+        cardData = data[card];
+        // console.log(cardData);
+        document.getElementById("cardui-base-text").innerText = cardData.description;
+        document.getElementById("cardui-banner-text").innerText = cardData.name;
+        document.getElementById("cardui-energy-text").innerText = cardData.cost;
+    } else {
+        console.log(`Card $(card) not found`);
+    }
+})
+.catch((error) => console.log(error));
+
+var cardPath = "data/art/" + card.replaceAll(" ", "") + ".png"
+document.getElementById("real-card").src = cardPath;
 
 document.getElementById("results").style.display = "none";
 

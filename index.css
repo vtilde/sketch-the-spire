@@ -1,3 +1,8 @@
+:root {
+    --card-text-colour: #FFF6E2;
+    --card-outline-colour: #4C4943;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -43,7 +48,7 @@ body {
     pointer-events: none;
 }
 .cardui-text {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     text-align: center;
 }
 .cardui-base {
@@ -52,6 +57,10 @@ body {
     top: 10px;
 }
 #cardui-base-text {
+    color: var(--card-text-colour);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 235px;
     height: 126px;
     left: 22px;
@@ -71,10 +80,21 @@ body {
     top: 21px;
 }
 #cardui-banner-text {
+    color: var(--card-text-colour);
+    font-size: 1.4em;
+    text-shadow:
+        2px 0 var(--card-outline-colour),
+        -2px 0 var(--card-outline-colour),
+        0 2px var(--card-outline-colour),
+        0 -2px var(--card-outline-colour),
+        1px 1px var(--card-outline-colour),
+        1px -1px var(--card-outline-colour),
+        -1px 1px var(--card-outline-colour),
+        -1px -1px var(--card-outline-colour);
     width: 207px;
     height: 25px;
-    left: 44px;
-    top: 25px;
+    left: 47px;
+    top: 24px;
 }
 .cardui-energy {
     width: 66px;
@@ -83,8 +103,19 @@ body {
     top: -12px;
 }
 #cardui-energy-text {
-    left: 14px;
-    top: 10px;
+    color: var(--card-text-colour);
+    font-size: 2em;
+    text-shadow:
+        3px 0 var(--card-outline-colour),
+        -3px 0 var(--card-outline-colour),
+        0 3px var(--card-outline-colour),
+        0 -3px var(--card-outline-colour),
+        2px 2px var(--card-outline-colour),
+        2px -2px var(--card-outline-colour),
+        -2px 2px var(--card-outline-colour),
+        -2px -2px var(--card-outline-colour);
+    left: 11px;
+    top: 0px;
 }
 
 #canvas-container {
