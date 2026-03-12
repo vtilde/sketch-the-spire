@@ -42,10 +42,21 @@ body {
     position: absolute;
     pointer-events: none;
 }
+.cardui-text {
+    border: 2px solid green;
+    text-align: center;
+}
 .cardui-base {
     width: 298px;
     height: 418px;
     top: 10px;
+}
+#cardui-base-text {
+    width: 235px;
+    height: 126px;
+    left: 22px;
+    top: 255px;
+    padding: 10px
 }
 .cardui-border {
     width: 262px;
@@ -59,11 +70,21 @@ body {
     left: -10px;
     top: 21px;
 }
+#cardui-banner-text {
+    width: 207px;
+    height: 25px;
+    left: 44px;
+    top: 25px;
+}
 .cardui-energy {
     width: 66px;
     height: 66px;
     left: -15px;
     top: -12px;
+}
+#cardui-energy-text {
+    left: 14px;
+    top: 10px;
 }
 
 #canvas-container {
@@ -74,7 +95,7 @@ body {
     width: 250px;
     height: 190px;
     left: 22px;
-    top: 30px;
+    top: 46px;
 }
 
 canvas {
