@@ -3,14 +3,19 @@
 var params = new URLSearchParams(window.location.search);
 var card = params.get("card");
 if (card == null) {
-    card = "Red-Strike";
+    card = "Green-Strike";
 };
+
 fetch("data/cardData.json")
 .then((res) => res.json())
 .then((data) => {
     if (card in data) {
         cardData = data[card];
-        // console.log(cardData);
+        console.log(cardData);
+        document.getElementById("cardui-base").src = `data/cardui/Base-${cardData["type"]}-${cardData["colour"]}.png`;
+        document.getElementById("cardui-border").src = `data/cardui/Border-${cardData["type"]}-${cardData["rarity"]}.png`;
+        document.getElementById("cardui-banner").src = `data/cardui/Banner-${cardData["rarity"]}.png`;
+        document.getElementById("cardui-energy").src = `data/cardui/Energy-${cardData["colour"]}.png`;
         document.getElementById("cardui-base-text").innerText = cardData.description;
         document.getElementById("cardui-banner-text").innerText = cardData.name;
         document.getElementById("cardui-energy-text").innerText = cardData.cost;

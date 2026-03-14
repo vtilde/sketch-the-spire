@@ -56,7 +56,7 @@ body {
     height: 418px;
     top: 10px;
 }
-#cardui-base-text {
+.cardui-base-text {
     color: var(--card-text-colour);
     display: flex;
     justify-content: center;
@@ -68,18 +68,18 @@ body {
     padding: 10px
 }
 .cardui-border {
-    width: 262px;
-    height: 185px;
-    left: 20px;
-    top: 70px;
+    width: 268px;
+    height: 238px;
+    left: 17px;
+    top: 14px;
 }
 .cardui-banner {
     width: 323px;
     height: 71px;
     left: -10px;
-    top: 21px;
+    top: 29px;
 }
-#cardui-banner-text {
+.cardui-banner-text {
     color: var(--card-text-colour);
     font-size: 1.4em;
     text-shadow:
@@ -94,7 +94,7 @@ body {
     width: 207px;
     height: 25px;
     left: 47px;
-    top: 24px;
+    top: 32px;
 }
 .cardui-energy {
     width: 66px;
@@ -102,7 +102,7 @@ body {
     left: -15px;
     top: -12px;
 }
-#cardui-energy-text {
+.cardui-energy-text {
     color: var(--card-text-colour);
     font-size: 2em;
     text-shadow:

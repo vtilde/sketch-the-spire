@@ -12,21 +12,21 @@
         <div id="drawing">
             <div class="container" id="drawing-container">
                 <div id="cardui-container">
-                    <img class="cardui-part cardui-base" src="data/cardui/Base-Attack-Red.png">
-                    <div class="cardui-part cardui-text" id="cardui-base-text">description</div>
+                    <img class="cardui-part cardui-base" id="cardui-base" src="data/cardui/Base-Attack-Red.png">
+                    <div class="cardui-part cardui-text cardui-base-text" id="cardui-base-text">description</div>
                     <div id="canvas-container">
                         <canvas id="drawing-canvas"></canvas>
                     </div>
-                    <img class="cardui-part cardui-border" src="data/cardui/Border-Attack-Common.png">
-                    <img class="cardui-part cardui-banner" src="data/cardui/Banner-Common.png">
-                    <div class="cardui-part cardui-text" id="cardui-banner-text">title</div>
-                    <img class="cardui-part cardui-energy" src="data/cardui/Energy-Red.png">
-                    <div class="cardui-part cardui-text" id="cardui-energy-text">1</div>
+                    <img class="cardui-part cardui-border" id="cardui-border" src="data/cardui/Border-Attack-Common.png">
+                    <img class="cardui-part cardui-banner" id="cardui-banner" src="data/cardui/Banner-Common.png">
+                    <div class="cardui-part cardui-text cardui-banner-text" id="cardui-banner-text">title</div>
+                    <img class="cardui-part cardui-energy" id="cardui-energy" src="data/cardui/Energy-Red.png">
+                    <div class="cardui-part cardui-text cardui-energy-text" id="cardui-energy-text">1</div>
                 </div>
             </div>
             <div class="container">
                 <div class="inner-container" id="colour-container">
-                    <color-picker id="picker" space="hsl" color="color(--hsv 352 75% 38%)" color-space="">
+                    <color-picker id="picker" space="hsl" color="rgb(141, 31, 10)" color-space="">
                         <div slot="color-space"></div>
                     </color-picker>
                 </div>
