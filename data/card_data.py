@@ -52,7 +52,10 @@ with open("data/cardData.json", "w") as f:
     json.dump(data, f)
 
 for i in data.values():
-    art_string = f"https://slaythespire.wiki.gg/images/{i['colour']}-{i['name'].replace(" ","")}-Art.png"
+    if i["type"] == "Curse":
+        art_string = f"https://slaythespire.wiki.gg/images/Curse-{i['name'].replace(" ","").replace("'","")}-Art.png"
+    else:
+        art_string = f"https://slaythespire.wiki.gg/images/{i['colour']}-{i['name'].replace(" ","").replace("'","")}-Art.png"
     filename = f"data/art/{i['colour']}-{i['name']}.png"
     print(filename)
     if not os.path.exists(filename):
