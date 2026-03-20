@@ -24,7 +24,7 @@
                     <div class="cardui-part cardui-text cardui-energy-text" id="cardui-energy-text">1</div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container shaded-container" id="brush-container">
                 <div class="inner-container" id="colour-container">
                     <color-picker id="picker" space="hsl" color="rgb(141, 31, 10)" color-space="">
                         <div slot="color-space"></div>
@@ -38,17 +38,21 @@
                     </svg></label>
                 </div>
             </div>
-            <div class="container">
-                <button onclick="submit()">Submit</button>
+            <div class="container shaded-container" id="submit-container">
+                <button onclick="submit()" class="button" id="submit-button">Submit</button>
             </div>
         </div>
         <div id="results">
-            <div class="container">
+            <div class="container shaded-container" id="results-container">
                 <img id="real-card">
                 <img id="drawn-card">
             </div>
-            <div class="container">
+            <div class="container shaded-container" id="score-container">
                 <p class="score">Accuracy: <span id="score-value"></span>%</p>
+            </div>
+            <div class="container shaded-container" id="share-container">
+                <button onclick="shareText()" class="button">Share Text</button>
+                <button onclick="shareImage()" class="button">Share Image</button>
             </div>
         </div>
         </body>

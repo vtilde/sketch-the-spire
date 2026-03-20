@@ -3,7 +3,7 @@
 var params = new URLSearchParams(window.location.search);
 var card = params.get("card");
 if (card == null) {
-    card = "Green-Strike";
+    card = "Red-Strike";
 };
 
 fetch("data/cardData.json")
@@ -153,6 +153,7 @@ function submit () {
     var meanDist = totalDist / pixels;
     var accuracy = 100 - ((meanDist / worstDist) * 100);
     accuracy = Math.max(0, accuracy);
+    window.accuracy = accuracy;
 
     document.getElementById("score-value").innerText = accuracy.toFixed(2);
 
@@ -162,6 +163,13 @@ function submit () {
 
 
 }
+
+function shareText() {
+    var resultsText = `I drew the ${card} card with *${window.accuracy.toFixed(2)}%* accuracy\nhttps://sketchthespire.vtil.dev`
+    navigator.clipboard.writeText(resultsText)
+    .then(() => console.log("copied"))
+    .catch((error) => console.log(error));
+};
 
 // refs
 // https://www.youtube.com/watch?v=mRDo-QXVUv8x
