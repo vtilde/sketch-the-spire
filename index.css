@@ -142,8 +142,12 @@ canvas {
     image-rendering: pixelated;
 }
 
+#brush-container {
+    width: 450px;
+}
+
 #colour-container {
-    min-width: 400px;
+    min-width: 300px;
 }
 
 #picker {
@@ -165,6 +169,10 @@ canvas {
 
 .button {
     font-size: 1.3em;
+}
+
+#submit-container {
+    width: 450px;
 }
 
 

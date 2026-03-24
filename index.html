@@ -4,7 +4,8 @@
         <title>draw the sts card</title>
         <link rel="stylesheet" href="index.css">
         <script src="https://colorjs.io/dist/color.global.js"></script>
-        <script src="https://elements.colorjs.io/src/color-picker/color-picker.js" type="module"></script><link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap" rel="stylesheet">
     </head>
@@ -26,9 +27,10 @@
             </div>
             <div class="container shaded-container" id="brush-container">
                 <div class="inner-container" id="colour-container">
-                    <color-picker id="picker" space="hsl" color="rgb(141, 31, 10)" color-space="">
+                    <div id="picker"></div>
+                    <!-- <color-picker id="picker" space="hsl" color="rgb(141, 31, 10)" color-space="">
                         <div slot="color-space"></div>
-                    </color-picker>
+                    </color-picker> -->
                 </div>
                 <div class="inner-container" id="thickness-container">
                     <label for="thickness">Thickness</label><br>

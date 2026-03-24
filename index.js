@@ -74,12 +74,14 @@ document.body.addEventListener("mouseup", (event) => {
 var cardui
 
 // colour picker
-var picker = document.getElementById("picker");
-picker.addEventListener("colorchange", (event) => {
-    if (event.detail != null && "value" in event.detail) {
-        var newColourValue = event.detail.value.coords;
-        ctx.strokeStyle =`hsl(${newColourValue[0]} ${newColourValue[1]} ${newColourValue[2]})`;
-    }
+var colourPicker = new iro.ColorPicker("#picker", {
+    width: 230,
+    color: "rgb(141, 31, 10)",
+    layoutDirection: "horizontal"
+});
+
+colourPicker.on(["color:init", "color:change"], function (colour) {
+    ctx.strokeStyle = `hsl(${colour.hsl.h} ${colour.hsl.s} ${colour.hsl.l})`;
 });
 
 // thickness slider
@@ -90,6 +92,9 @@ thicknessSlider.addEventListener("input", (event) => {
     var thicknessValue = event.target.value;
     ctx.lineWidth = thicknessValue;
     thicknessDisplay.setAttribute("r", thicknessValue / 2)
+});
+colourPicker.on(["color:init", "color:change"], function (colour) {
+    thicknessDisplay.setAttribute("fill", `hsl(${colour.hsl.h} ${colour.hsl.s} ${colour.hsl.l})`);
 });
 picker.addEventListener("colorchange", (event) => {
     if (event.detail != null && "value" in event.detail) {
@@ -169,6 +174,10 @@ function shareText() {
     navigator.clipboard.writeText(resultsText)
     .then(() => console.log("copied"))
     .catch((error) => console.log(error));
+};
+
+function shareImage() {
+
 };
 
 // refs
