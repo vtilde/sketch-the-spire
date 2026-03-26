@@ -164,9 +164,6 @@ function submit () {
 
     document.getElementById("drawing").style.display = "none";
     document.getElementById("results").style.display = "block";
-
-
-
 }
 
 function shareText() {
@@ -177,8 +174,37 @@ function shareText() {
 };
 
 function shareImage() {
+    document.getElementById("result-card-container").style.display = "flex";
+    var resultCanvas = document.getElementById("result-card-canvas");
+    resultCanvas.width = 676;
+    resultCanvas.height = 916;
+    var resultCtx = resultCanvas.getContext("2d");
 
+    resultCtx.drawImage(document.getElementById("drawn-card"), 92, 120, 500, 380); // 250,190
+    resultCtx.drawImage(document.getElementById("cardui-base"), 40, 40, 596, 836);
+    resultCtx.drawImage(document.getElementById("cardui-border"), 80, 55, 536, 476);
+    resultCtx.drawImage(document.getElementById("cardui-banner"), 20, 85, 646, 142);
+    resultCtx.drawImage(document.getElementById("cardui-energy"), 5, 5, 132, 132);
+
+    resultCtx.textAlign = "center";
+    resultCtx.textBaseline = "middle";
+    function writeText(context, text, x, y, font, textColour, outlineColour, outlineWidth) {
+        context.font = font;
+        context.strokeStyle = outlineColour;
+        context.lineWidth = outlineWidth;
+        context.strokeText(text, x, y)
+        context.fillStyle = textColour;
+        context.fillText(text, x, y);
+    }
+    // document.getElementById("cardui-base-text").innerText = cardData.description;
+    // document.getElementById("cardui-banner-text").innerText = cardData.name;
+    // document.getElementById("cardui-energy-text").innerText = cardData.cost;
+
+    writeText(resultCtx, cardData.description, 388, 400, "3em Kreon", "#FFF6E2", "#4C4943", 8);
+    writeText(resultCtx, cardData.name, 388, 100, "3em Kreon", "#FFF6E2", "#4C4943", 8);
+    writeText(resultCtx, cardData.cost, 67, 70, "3em Kreon", "#FFF6E2", "#4C4943", 8);
 };
+
 
 // refs
 // https://www.youtube.com/watch?v=mRDo-QXVUv8x
