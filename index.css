@@ -79,13 +79,13 @@ body {
 .cardui-border {
     width: 268px;
     height: 238px;
-    left: 17px;
-    top: 14px;
+    left: 20px;
+    top: 15px;
 }
 .cardui-banner {
     width: 323px;
     height: 71px;
-    left: -10px;
+    left: -12px;
     top: 29px;
 }
 .cardui-banner-text {
@@ -134,7 +134,7 @@ body {
     position: absolute;
     width: 250px;
     height: 190px;
-    left: 22px;
+    left: 29px;
     top: 46px;
 }
 
