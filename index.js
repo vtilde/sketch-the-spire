@@ -1,14 +1,30 @@
-
 // set card
-var params = new URLSearchParams(window.location.search);
-var card = params.get("card");
-if (card == null) {
-    card = "Red-Strike";
-};
+var card = ""
+async function setCard() {
+    // card from url params
+    var params = new URLSearchParams(window.location.search);
+    card = params.get("card");
+    console.log("params", card);
 
-fetch("data/cardData.json")
-.then((res) => res.json())
-.then((data) => {
+    // card from daily schedule
+    if (card == null) {
+        var date = new Date(Date.now());
+        var dateString = date.getFullYear().toString() + "-" + (date.getMonth() + 1).toString().padStart(2, "0") + "-" + date.getDate().toString().padStart(2, "0");
+        var res = await fetch("data/schedule.json");
+        const schedule = await res.json();
+        card = schedule[dateString];
+        console.log("schedule", card);
+
+        // card fallback
+        if (card == undefined) {
+            card = "Red-Strike";
+            console.log("fallback", card);
+        }
+
+    };
+    console.log("final", card)
+    var res = await fetch("data/cardData.json");
+    var data = await res.json();
     if (card in data) {
         cardData = data[card];
         console.log(cardData);
@@ -19,14 +35,17 @@ fetch("data/cardData.json")
         document.getElementById("cardui-base-text").innerText = cardData.description;
         document.getElementById("cardui-banner-text").innerText = cardData.name;
         document.getElementById("cardui-energy-text").innerText = cardData.cost;
+        
+        var cardPath = "data/art/" + card.replaceAll(" ", "") + ".png"
+        document.getElementById("real-card").src = cardPath;
     } else {
         console.log(`Card $(card) not found`);
     }
-})
-.catch((error) => console.log(error));
 
-var cardPath = "data/art/" + card.replaceAll(" ", "") + ".png"
-document.getElementById("real-card").src = cardPath;
+}
+setCard();
+
+
 
 document.getElementById("results").style.display = "none";
 
@@ -36,7 +55,6 @@ canvas.width = 250;
 canvas.height = 190;
 const offsetLeft = canvas.offsetLeft;
 const offsetTop = canvas.offsetTop;
-console.log(canvas)
 
 const ctx = canvas.getContext("2d");
 ctx.fillStyle = "white";
