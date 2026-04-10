@@ -35,7 +35,7 @@ async function setCard() {
         document.getElementById("cardui-base-text").innerText = cardData.description;
         document.getElementById("cardui-banner-text").innerText = cardData.name;
         document.getElementById("cardui-energy-text").innerText = cardData.cost;
-        
+
         var cardPath = "data/art/" + card.replaceAll(" ", "") + ".png"
         document.getElementById("real-card").src = cardPath;
     } else {
@@ -218,8 +218,22 @@ function shareImage() {
     // document.getElementById("cardui-banner-text").innerText = cardData.name;
     // document.getElementById("cardui-energy-text").innerText = cardData.cost;
 
-    writeText(resultCtx, cardData.description, 388, 400, "3em Kreon", "#FFF6E2", "#4C4943", 8);
-    writeText(resultCtx, cardData.name, 388, 100, "3em Kreon", "#FFF6E2", "#4C4943", 8);
+    var descLines = [[cardData.description.split(" ")[0]]];
+    var descWords = cardData.description.split(" ").slice(1);
+    while (descWords.length > 0) {
+        if (descLines.at(-1).join("").length + descWords[0].length > 20) {
+            descLines.push([]);
+        }
+        descLines.at(-1).push(descWords[0]);
+        descWords = descWords.slice(1);
+    }
+    console.log(descLines)
+
+    for (i=0;i<descLines.length;i++) {
+        writeText(resultCtx, descLines[i].join(" "), 342, 575 + (i*50), "3em Kreon", "#FFF6E2", "#4C4943", 0);
+    }
+
+    writeText(resultCtx, cardData.name, 342, 122, "3em Kreon", "#FFF6E2", "#4C4943", 10);
     writeText(resultCtx, cardData.cost, 67, 70, "3em Kreon", "#FFF6E2", "#4C4943", 8);
 };
 
